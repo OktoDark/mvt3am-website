@@ -18,7 +18,7 @@
 				<div class="fh5co-text-wrap animate-box">
 					<div class="fh5co-intro-text">
 						<h1>When I do stream <span>schedule</span>, What I play, What I doing</h1>
-						<a href="http://twitch.tv/mvt3am"><img src="http://streambadge.com/twitch/dark/mvt3am.png" width="300" height="64" alt="mvt3am's Streambadge"></a>
+						<a href="https://twitch.tv/mvt3am"><img src="https://streambadge.com/twitch/dark/mvt3am.png" width="300" height="64" alt="mvt3am's Streambadge"></a>
 					</div>
 				</div>
 			</div>

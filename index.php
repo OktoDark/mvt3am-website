@@ -44,7 +44,7 @@
 					<div class="fh5co-text col-md-4 animate-box">
 						<h2>Game Dev</h2>
 						<p>So far I working to finish the Blockade game, and yes is a free game.</p>
-						<p><a href="https://beta.oktodark.com/en/games" class="btn btn-light btn-outline transition">View Projects</a></p>
+						<p><a href="https://oktodark.com/en/games" class="btn btn-light btn-outline transition">View Projects</a></p>
 					</div>
 				</div>
 			</div>
