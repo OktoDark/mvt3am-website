@@ -71,6 +71,7 @@
 								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
 							</div>
 							<div class="col-md-9">
+                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="theme/images/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
 								<p class="fh5co-lead">In some cases depend by viewers what I play in weekend and in the rest of days I play as usual.</p>
 								<p>
                                 Construction Simulator 2015<br>
