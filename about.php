@@ -13,9 +13,6 @@
 				<li class="animate-box"><a href="contest" class="transition">Contest</a></li>
 				<li class="animate-box fh5co-active"><a href="about" class="transition">Bio</a></li>
 			</ul>
-			<a class="style-toggle js-style-toggle" data-style="default" href="#">
-				<span class="fh5co-circle"></span>
-			</a>
 		</nav>
 		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
 			<div class="container">
@@ -49,8 +46,7 @@
 								</p>
 							</div>
 						</div>
-
-<!--						<div class="row row-bottom-padded-sm animate-box">
+                        <div class="row row-bottom-padded-sm animate-box">
 							<div class="col-md-12">
 								<figure class="fh5co-bio-photo"><img src="images/img.jpg" class="img-responsive" alt=""></figure>
 							</div>
@@ -72,13 +68,12 @@
 								<br />
 								</p>
 							</div>
-						</div>	
+						</div>
 						<div class="row animate-box row-bottom-padded-sm">
 							<div class="col-md-3">
 								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Experience</h3>
 							</div>
 							<div class="col-md-9">
-								
 								<p class="fh5co-lead">Yes I know to work in lots of programs, and I know codes:<br>
 								PHP<br>
 								mySQL<br>

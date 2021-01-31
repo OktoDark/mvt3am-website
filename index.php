@@ -6,7 +6,17 @@
 	<!-- Loader -->
 	<div class="fh5co-loader"></div>
 	<div id="fh5co-page">
-        <?php include 'parts/menu.php';?>
+        <nav id="fh5co-nav" role="navigation">
+            <ul>
+                <li class="animate-box fh5co-active"><a href="home" class="transition">Home</a></li>
+                <li class="animate-box"><a href="stream" class="transition">Stream</a></li>
+                <li class="animate-box"><a href="contest" class="transition">Contest</a></li>
+                <li class="animate-box"><a href="about" class="transition">Bio</a></li>
+            </ul>
+            <a class="style-toggle js-style-toggle" data-style="default" href="#">
+                <span class="fh5co-circle"></span>
+            </a>
+        </nav>
 		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
 			<div class="container">
 				<div class="fh5co-text-wrap animate-box">
