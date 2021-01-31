@@ -13,9 +13,6 @@
                 <li class="animate-box"><a href="contest" class="transition">Contest</a></li>
                 <li class="animate-box"><a href="about" class="transition">Bio</a></li>
             </ul>
-            <a class="style-toggle js-style-toggle" data-style="default" href="#">
-                <span class="fh5co-circle"></span>
-            </a>
         </nav>
 		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
 			<div class="container">
