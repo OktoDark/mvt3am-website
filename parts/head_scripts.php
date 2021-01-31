@@ -9,5 +9,4 @@
     <link rel="stylesheet" href="theme/css/animate.css">
     <link rel="stylesheet" href="theme/css/flexslider.css">
     <link rel="stylesheet" href="theme/css/icomoon.css">
-    <link rel="stylesheet" href="theme/css/bootstrap.css">
     <link rel="stylesheet" id="theme-switch" href="theme/css/style.css">
