@@ -71,9 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .mods_list {
   display: block;
-  padding: 9.5px;
+  /*padding: 9.5px;*/
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.42857;
 }
 
