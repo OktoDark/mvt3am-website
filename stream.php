@@ -65,6 +65,16 @@
                                         <td><i class="fas fa-check"></i></td>
                                     </tr>
                                     <tr>
+                                        <td></td>
+                                        <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
+                                        <td><img src="theme/images/logos/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="theme/images/logos/cs2015_110x50.png" alt="construction simulator 2015"/></td>
+                                        <td><img src="theme/images/logos/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
+                                    </tr>
+                                    <tr>
                                         <td>EEST/EEST</td>
                                         <td><i class="fas fa-asterisk fa-xs"></i></td>
                                         <td><i class="far fa-clock"></i> 5PM</td>
@@ -107,7 +117,10 @@
                                     </tbody>
                                 </table>
                                 </p>
-                                <p><i class="fas fa-asterisk"></i> - is mean can be streaming, without mention of the hour start</p>
+                                <p>
+                                    <i class="fas fa-asterisk"></i> - is mean can be streaming, without mention of the hour start<br>
+                                    <i class="fas fa-random"></i> - is mean can be random game without announcement
+                                </p>
 							</div>
 						</div>
 <!--
