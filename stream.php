@@ -40,23 +40,75 @@
 							</div>
 							<div class="col-md-9">
 								<p class="fh5co-lead">I stream only 6 days per week from Tuesday - Sunday, Monday I have day off.</p>
-                                <p>Timezone:</p>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm">
-                                            5PM EEST
-                                        </div>
-                                        <div class="col-sm">
-                                            3PM UTC
-                                        </div>
-                                        <div class="col-sm">
-                                            10AM EDT
-                                        </div>
-                                        <div class="col-sm">
-                                            7AM PDT
-                                        </div>
-                                    </div>
-                                </div>
+                                <p>
+                                <table class="table table-bordered table-dark fh5co-text-calendar">
+                                    <thead>
+                                    <tr>
+                                        <th>Timezone</th>
+                                        <th>Monday</th>
+                                        <th>Tuesday</th>
+                                        <th>Wednesday</th>
+                                        <th>Thursday</th>
+                                        <th>Friday</th>
+                                        <th>Saturday</th>
+                                        <th>Sunday</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td><i class="fas fa-times"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>EEST/EEST</td>
+                                        <td><i class="fas fa-asterisk fa-xs"></i></td>
+                                        <td><i class="far fa-clock"></i> 5PM</td>
+                                        <td><i class="far fa-clock"></i> 5PM</td>
+                                        <td><i class="far fa-clock"></i> 5PM</td>
+                                        <td><i class="far fa-clock"></i> 5PM</td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UTC</td>
+                                        <td><i class="fas fa-asterisk fa-xs"></i></td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                        <td><i class="far fa-clock"></i> 3PM</td>
+                                        <td><i class="far fa-clock"></i> 1PM</td>
+                                        <td><i class="far fa-clock"></i> 1PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>EDT/EDT</td>
+                                        <td><i class="fas fa-asterisk fa-xs"></i></td>
+                                        <td><i class="far fa-clock"></i> 10AM</td>
+                                        <td><i class="far fa-clock"></i> 10AM</td>
+                                        <td><i class="far fa-clock"></i> 10AM</td>
+                                        <td><i class="far fa-clock"></i> 10AM</td>
+                                        <td><i class="far fa-clock"></i> 8AM</td>
+                                        <td><i class="far fa-clock"></i> 8AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PST/PDT</td>
+                                        <td><i class="fas fa-asterisk fa-xs"></i></td>
+                                        <td><i class="far fa-clock"></i> 7AM</td>
+                                        <td><i class="far fa-clock"></i> 7AM</td>
+                                        <td><i class="far fa-clock"></i> 7AM</td>
+                                        <td><i class="far fa-clock"></i> 7AM</td>
+                                        <td><i class="far fa-clock"></i> 5AM</td>
+                                        <td><i class="far fa-clock"></i> 5AM</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                </p>
+                                <p><i class="fas fa-asterisk"></i> - is mean can be streaming, without mention of the hour start</p>
 							</div>
 						</div>
 <!--

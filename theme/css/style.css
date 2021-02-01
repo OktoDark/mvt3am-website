@@ -496,6 +496,9 @@ h1, h2, h3, h4, h5, h6 {
     content: 'viewport-units-buggyfill; width:100vw';
   }
 }
+.fh5co-text-calendar {
+  text-align: center !important;
+}
 .fh5co-project .fh5co-imgs {
   height: calc(100% - 50%);
   position: relative;
