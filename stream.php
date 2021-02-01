@@ -18,7 +18,7 @@
 				<div class="fh5co-text-wrap animate-box">
 					<div class="fh5co-intro-text">
 						<h1>When I do stream <span>schedule</span>, What I play, What I doing</h1>
-						<a href="https://twitch.tv/mvt3am"><img src="https://streambadge.com/twitch/dark/mvt3am.png" width="300" height="64" alt="mvt3am's Streambadge"></a>
+						<a href="https://twitch.tv/mvt3am"><img src="http://streambadge.com/twitch/dark/mvt3am.png" width="300" height="64" alt="mvt3am's Streambadge"></a>
 					</div>
 				</div>
 			</div>
@@ -33,7 +33,6 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						
 						<div class="row row-bottom-padded-sm animate-box">
 							<div class="col-md-3">
 								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Schedule</h3>
@@ -127,7 +126,7 @@
 								<p class="fh5co-lead">In some cases depend by viewers what I play in weekend and in the rest of days I play as usual.</p>
 								<p>
                                 Construction Simulator 2015<br>
-								The Sims 4 (lots/households/mods/custom items <a href="../sims/">here</a>)<br>
+                                The Sims 4 (lots/households/mods/custom items <del><a href="#">here</a></del> <sup>Has been moved at <a href="https://www.oktodark.com">here</a>, account needed.</sup>)<br>
 								Euro Truck Simulator 2 (singleplayer or multiplayer)<br>
                                 American Truck Simulator (singleplayer or multiplayer)
 								<i>RimWorld</i><br>
