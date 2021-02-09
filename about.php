@@ -92,18 +92,11 @@
 							</div>
 							<div class="col-md-9">
 								<ul class="fh5co-social fh5co-stack">
-									<li>
-										<a href="mailto:mvt3am@gmail.com?subject=Ask%20Me"><i class="icon-mail2"></i> Send Email</a>
-									</li>
-									<li>
-										<a href="http://www.twitter.com/mvt3am"><i class="icon-twitter"></i> Twitter</a>
-									</li>
-									<li>
-										<a href="http://www.facebook.com/RazvanGeorgeH"><i class="icon-facebook"></i> Facebook</a>
-									</li>
-									<li>
-										<a href="skype:mvt3am"><i class="icon-skype"></i> Skype</a>
-									</li>
+									<li><a href="mailto:mvt3am@gmail.com?subject=Ask%20Me"><i class="icon-mail2"></i> Send Email</a></li>
+									<li><a href="http://www.twitter.com/mvt3am"><i class="icon-twitter"></i> Twitter</a></li>
+									<li><a href="http://www.facebook.com/RazvanGeorgeH"><i class="icon-facebook"></i> Facebook</a></li>
+									<li><a href="skype:mvt3am"><i class="icon-skype"></i> Skype</a></li>
+                                    <li><a href="https://discord.gg/6CJAUx2"><i class="fab fa-discord"></i> Discord</a></li>
 								</ul>
 							</div>
 						</div>

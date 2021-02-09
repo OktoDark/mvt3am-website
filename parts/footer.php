@@ -3,7 +3,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <p><small>&copy; 2016-2021 mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>
-                            <ul class="fh5co-social">
+                            <ul class="fh5co-social-footer">
                                 <li><a href="http://www.twitter.com/mvt3am"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="http://www.facebook.com/RazvanGeorgeH"><i class="fab fa-facebook"></i></a></li>
                                 <li><a href="https://www.youtube.com/channel/UCzPfw3b7L4oVr9C4BykM-8w"><i class="fab fa-youtube"></i></a></li>

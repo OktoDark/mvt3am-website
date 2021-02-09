@@ -31,6 +31,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  text-decoration: none;
 }
 a:hover, a:active, a:focus {
   color: #fff;
@@ -721,6 +722,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-social {
   padding: 0;
   margin: 0;
+  width: max-content;
 }
 .fh5co-social li {
   padding: 0;
@@ -743,6 +745,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  text-decoration: none;
 }
 .fh5co-social li a:hover {
   color: rgba(255, 255, 255, 0.7);
@@ -756,6 +759,55 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 .fh5co-social.fh5co-stack li i {
+  width: 24px;
+  top: 2px;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin-right: 10px;
+}
+
+.fh5co-social-footer {
+  padding: 0;
+  margin: 0;
+}
+.fh5co-social-footer li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.fh5co-social-footer li a {
+  padding: 10px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.fh5co-social-footer li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.fh5co-social-footer.fh5co-stack li {
+  display: block;
+}
+.fh5co-social-footer.fh5co-stack li a {
+  display: block;
+  padding: 5px 10px;
+  border-bottom: none;
+}
+.fh5co-social-footer.fh5co-stack li i {
   width: 24px;
   top: 2px;
   position: relative;
