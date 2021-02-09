@@ -1,10 +1,10 @@
 <?php include 'parts/head.php' ?>
-		<title>mvt3am - KSP Mods</title>
-		<?php include 'parts/head_scripts.php'?>
-	</head>
-	<body>
-	<div class="fh5co-loader"></div>
-	<div id="fh5co-page">
+        <title>mvt3am - KSP Mods</title>
+        <?php include 'parts/head_scripts.php'?>
+    </head>
+    <body>
+    <div class="fh5co-loader"></div>
+    <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
             <ul>
                 <li class="animate-box"><a href="home" class="transition">Home</a></li>
@@ -13,31 +13,32 @@
                 <li class="animate-box"><a href="about" class="transition">Bio</a></li>
             </ul>
         </nav>
-		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
-			<div class="container">
-				<div class="fh5co-text-wrap animate-box">
-					<div class="fh5co-intro-text">
-						<h1>Kerbal Space Program <br><span>mods</span></h1>
-					</div>
-				</div>
-			</div>
-			<div class="btn-next animate-box fh5co-learn-more">
-				<a href="#" class="scroll-btn">
-					<span>See the detail</span>
-					<i class="icon-chevron-down"></i>
-				</a>
-			</div>
-		</header>
-		<div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row row-bottom-padded-sm animate-box">
-							<div class="col-md-3">
-								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Mods</h3>
-							</div>
-							<div class="col-md-9">
                                 <p class="fh5co-lead">Kerbal Space Program v1.11.0.<br>The mods list can be changed anytime without announcement and can't be 100% all the mods because some has been downloaded directly from <a href="https://forum.kerbalspaceprogram.com">ksp forum</a> or <a href="https://www.github.com">github</a> and are not exist in this list.</p>
+        <header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
+            <div class="container">
+                <div class="fh5co-text-wrap animate-box">
+                    <div class="fh5co-intro-text">
+                        <h1>Kerbal Space Program <br><span>mods</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-next animate-box fh5co-learn-more">
+                <a href="#" class="scroll-btn">
+                    <span>See the detail</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+            </div>
+        </header>
+        <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row row-bottom-padded-sm animate-box">
+                            <div class="col-md-3">
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Mods
+                                </h3>
+                            </div>
+                            <div class="col-md-9">
                                 <div class="mods_list">
                                     <pre>
 Flight Manager for Reusable Stages (FMRS) Continued (FMRSContinued 1.2.9.1)
@@ -317,10 +318,10 @@ Zero MiniAVC (ZeroMiniAVC 1:1.1.0.1)
                                     </pre>
                                 </div>
                             </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <?php include 'parts/footer.php';?>
 
