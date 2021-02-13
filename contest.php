@@ -42,16 +42,22 @@
                                 <p class="fh5co-lead"></p>
                                 <p>
                                 <h3>Description</h3>
-                                It is very simple contest, stay and watch on me <a href="http://twitch.com/mvt3am">mvt3am</a> channel everyday.<br>
+                                It is very simple contest, stay and watch my Twitch <a href="http://twitch.com/mvt3am">mvt3am</a> channel everyday.<br>
                                 More active more chance to win!<br>
-                                Everyday I post on twitter the percent of the win rate +-0/3%* and will be selected the winners in transparent mode.
+                                Everyday I post on twitter the percent of the win rate +-0/3%* and will be selected the winners in transparent mode.<br>
+                                Enter and see on <a href="https://www.twitter.com/mvt3am">Twitter</a> for percent rate.<br>
                                 <h3 id="rules">Rules</h3>
+                                Enter with !gowin command, type only once to be qualified. (everyday the entry list will be updated with your number of days)<br>
                                 You must to follow me if you do want to join at contest.<br>
                                 You must to be active almost 2 weeks or more before to win.<br>
                                 <h3>Prize</h3>
-                                One from 5 ViPs<br>
+                                Chance to win one from 5 ViPs* available<br>
                                 <h3>Note</h3>
-                                * reprezent the active viewers on my stream.
+                                * represents the active viewers on my stream.
+                                <h3>Entry List</h3>
+                                -
+                                <h3>Winners</h3>
+                                -
                                 </p>
                             </div>
                         </div>
