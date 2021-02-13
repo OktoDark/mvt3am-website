@@ -130,15 +130,86 @@
                             </div>
                             <div class="col-md-9">
                                 <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="theme/images/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
-                                <p class="fh5co-lead">In some cases depend by viewers what I play in weekend and in the rest of days I play as usual.</p>
                                 <p>
-                                    Construction Simulator 2015<br>
-                                    The Sims 4 (lots/households/mods/custom items <del><a href="#">here</a></del><sup>Has been moved at <a href="https://www.oktodark.com">here</a>, account needed.</sup>)<br>
-                                    Euro Truck Simulator 2 (singleplayer or multiplayer)<br>
-                                    American Truck Simulator (singleplayer or multiplayer)
-                                    <i>RimWorld</i><br>
-                                    Kerbal Space Program (<a href="ksp_mods">mods</a>)<br>
-                                    <i>Minecraft</i><br>
+                                    <h3>My Games:</h3>
+                                    <table class="table table-bordered table-dark fh5co-text-calendar">
+                                        <thead>
+                                        <tr>
+                                            <th>Store</th>
+                                            <th>Game Name</th>
+                                            <th>Multiplayer</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Euro Truck Simulator 2</td>
+                                            <td><i class="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>American Truck Simulator</td>
+                                            <td><i class="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Workers & Resources: Soviet Republic</td>
+                                            <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Tomb Raider
+                                                <ul style="text-align: left;">
+                                                    <li>Tomb Raider I (1996)</li>
+                                                    <li>Tomb Raider II (1997)</li>
+                                                    <li>Tomb Raider III - Adventures of Lara Croft (1998)</li>
+                                                    <li>Tomb Raider: The Last Revelation (1999)</li>
+                                                    <li>Tomb Raider (2000)</li>
+                                                    <li>Tomb Raider: Chronicles (2000)</li>
+                                                    <li>Tomb Raider VI: The Angel of Darkness (2003)</li>
+                                                    <li>Tomb Raider: Legend (2006)</li>
+                                                    <li>Tomb Raider: Anniversary (2007)</li>
+                                                    <li>Tomb Raider: Underworld (2008)</li>
+                                                    <li>Lara Croft and the Guardian of Light (2010)</li>
+                                                    <li>Lara Croft and the Temple of Osiris (2014)</li>
+                                                    <li>Lara Croft GO (2015)</li>
+                                                    <li>Rise of Tomb Raider (2015)</li>
+                                                </ul>
+                                            </td>
+                                            <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Construction Simulator 2015</td>
+                                            <td><i class="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Counter-Strike</td>
+                                            <td><i class="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Counter-Strike: Source</td>
+                                            <td><i class="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Subnautica</td>
+                                            <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Origin</td>
+                                            <td>The Sims 4</td>
+                                            <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>GOG</td>
+                                            <td>Kerbal Space Program (<a href="ksp_mods">mods</a>)</td>
+                                            <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </p>
                             </div>
                         </div>
