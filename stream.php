@@ -1,8 +1,8 @@
 <?php include 'parts/head.php' ?>
         <title>mvt3am - Stream</title>
         <?php include 'parts/head_scripts.php'?>
-    </head>
-    <body>
+</head>
+<body>
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -36,7 +36,6 @@
                             </div>
                             <div class="col-md-9">
                                 <p class="fh5co-lead">I stream only 6 days per week from Tuesday - Sunday, Monday I have day off.</p>
-                                <p>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
                                     <tr>
@@ -116,7 +115,6 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                </p>
                                 <p>
                                     <i class="fas fa-asterisk"></i> - is mean can be streaming, without mention of the hour start<br>
                                     <i class="fas fa-random"></i> - is mean can be random game without announcement
@@ -125,18 +123,16 @@
                         </div>
                         <div class="row animate-box row-bottom-padded-sm">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span>
-                                    Games</h3>
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="theme/images/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
-                                <p>
-                                    <h3>My Games:</h3>
-                                    <table class="table table-bordered table-dark fh5co-text-calendar">
-                                        <thead>
+                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
+                                <h3>My Games</h3>
+                                <table class="table table-bordered table-dark fh5co-text-calendar">
+                                    <thead>
                                         <tr>
                                             <th>Store</th>
-                                            <th>Game Name</th>
+                                            <th>Game</th>
                                             <th>Multiplayer</th>
                                         </tr>
                                         </thead>
@@ -208,9 +204,8 @@
                                             <td>Kerbal Space Program (<a href="ksp_mods">mods</a>)</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
-                                        </tbody>
-                                    </table>
-                                </p>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                         <div class="row animate-box row-bottom-padded-sm">
@@ -219,12 +214,10 @@
                             </div>
                             <div class="col-md-9">
                                 <p class="fh5co-lead">Watch me on my twitch channel and earn points.</p>
-                                <p>
                                 <h3>Description</h3>
                                 In my channel the Yoshikobot in different time you earn points, only if you are watching when I stream.<br>
                                 You start to earn points on every 30 minutes or less spent on my channel.<br>
-                                If you are new on my channel you must to wait 5-20 minutes before to earn points.<br>
-                                <br>
+                                If you are new on my channel you must to wait 5-20 minutes before to earn points.<br><br>
                                 <h3>Points Bonus List</h3>
                                 <ul>
                                     <li>Live - 1 Point (<i>watching me</i>)</li>
@@ -244,28 +237,20 @@
                                 <i>The title ranks can be changed in time but not the Points.</i>
                                 <br>
                                 <h3>Legend</h3>
-                                * You can win a reward if you have Points see the twitter if in a month, week you can earn Rewards.
-                                <br>
+                                * You can win a reward if you have Points see the twitter if in a month, week you can earn Rewards.<br>
                                 <h3>FAQ</h3>
                                 <b>Why I not earn points?</b><br>
-                                You not earn points if you not Follow me.
-                                <br>
+                                You not earn points if you not Follow me.<br>
                                 <b>If donated I can receive points?</b><br>
-                                Yes you receive points, ex 1&euro; = 50 Points same as for $. (can be more points with every donation)
-                                <br>
+                                Yes you receive points, ex 1&euro; = 50 Points same as for $. (can be more points with every donation)<br>
                                 <b>I donated but I not receive the points</b><br>
-                                Send me a message private and in short time you have it all.
-                                <br>
+                                Send me a message private and in short time you have it all.<br>
                                 <b>If I donated 100&euro; / $ how many points I win?</b><br>
-                                You not win, you earn 10.000 points and You will have a special rank only for you. The title you choice it only for you.
-                                <br>
+                                You not win, you earn 10.000 points and You will have a special rank only for you. The title you choice it only for you.<br>
                                 <b>I can buy something else with Points?</b><br>
-                                Yes, as soon the our shop is complete.
-                                <br>
+                                Yes, as soon the our shop is complete.<br>
                                 <b>I donated / I watching you everytime what I earn?</b><br>
                                 You earn Points and my respect.
-                                <br>
-                                </p>
                             </div>
                         </div>
                     </div>

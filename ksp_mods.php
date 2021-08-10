@@ -1,8 +1,8 @@
 <?php include 'parts/head.php' ?>
         <title>mvt3am - KSP Mods</title>
         <?php include 'parts/head_scripts.php'?>
-    </head>
-    <body>
+</head>
+<body>
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">

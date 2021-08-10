@@ -1,9 +1,8 @@
 <?php include 'parts/head.php';?>
     <title>mvt3am - Contest</title>
     <?php include 'parts/head_scripts.php';?>
-    </head>
-    <body>
-    <!-- Loader -->
+</head>
+<body>
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -32,11 +31,9 @@
                     <div class="col-md-12">
                         <div class="row row-bottom-padded-sm animate-box">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Be Active</h3>
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Be Active</h3>
                             </div>
                             <div class="col-md-9">
-                                <p class="fh5co-lead"></p>
-                                <p>
                                 <h3>Description</h3>
                                 It is very simple contest, stay and watch my Twitch <a href="http://twitch.com/mvt3am">mvt3am</a> channel everyday.<br>
                                 More active more chance to win!<br>
@@ -54,7 +51,6 @@
                                 -
                                 <h3>Winners</h3>
                                 -
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -70,13 +66,10 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Collect the words</h3>
                             </div>
                             <div class="col-md-9">
-                                <p class="fh5co-lead"></p>
-                                <p>
                                 <div class="con_end">Contest is ended</div>
                                 <h3>Description</h3>
                                 It is very simple contest, stay and watch on me <a href="http://twitch.com/mvt3am">mvt3am</a> channel, wait and see the bot word and write the word on chat.<br>
-                                Who collect the most of word can win. see <a href="#rules">rules</a>.
-                                <br>
+                                Who collect the most of word can win. see <a href="#rules">rules</a>.<br>
                                 You must to collect all the words from 1.10.2016 to 9.10.2016.
                                 <h3 id="rules">Rules</h3>
                                 You must to follow me if you do want to join.<br>
@@ -92,7 +85,6 @@
                                 <h3>Prize</h3>
                                 Moderator access<br>
                                 One title for you, your choice what you do want.<br>
-                                </p>
                             </div>
                         </div>
                     </div>

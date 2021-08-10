@@ -1,9 +1,8 @@
 <?php include 'parts/head.php';?>
     <title>mvt3am - About</title>
     <?php include 'parts/head_scripts.php';?>
-    </head>
-    <body>
-    <!-- Loader -->
+</head>
+<body>
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -44,26 +43,17 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row row-bottom-padded-sm animate-box">
-                            <div class="col-md-12">
-                                <figure class="fh5co-bio-photo"><img src="images/img.jpg" class="img-responsive" alt=""></figure>
-                            </div>
-                        </div>
                         <div class="row animate-box row-bottom-padded-sm">
                             <div class="col-md-3">
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Likes/Dislike</h3>
                             </div>
                             <div class="col-md-9">
                                 <p class="fh5co-lead">What I like and dislike<br>
-                                    Games<br>
-                                    Anime<br>
-                                    Old Buildings<br>
-                                    Music (Rock, Trance, Chill, Old Music)<br>
-                                    Journeys<br>
-                                    <br>
-                                    jerks<br>
-                                    -
-                                    <br/>
+                                    I like Games<br>
+                                    I like Anime<br>
+                                    I like Music (Rock, Trance, Chill, Old Music)<br>
+                                    I like Journeys<br>
+                                    I hate jerks<br>
                                 </p>
                             </div>
                         </div>
@@ -86,7 +76,7 @@
                         </div>
                         <div class="row animate-box row-bottom-padded-sm">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Connect</h3>
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 4</span> Contact</h3>
                             </div>
                             <div class="col-md-9">
                                 <ul class="fh5co-social fh5co-stack">
@@ -94,8 +84,7 @@
                                     <li><a href="http://www.twitter.com/mvt3am"><i class="icon-twitter"></i> Twitter</a></li>
                                     <li><a href="http://www.facebook.com/RazvanGeorgeH"><i class="icon-facebook"></i> Facebook</a></li>
                                     <li><a href="skype:mvt3am"><i class="icon-skype"></i> Skype</a></li>
-                                    <li><a href="https://discord.gg/6CJAUx2"><i class="fab fa-discord"></i> Discord</a>
-                                    </li>
+                                    <li><a href="https://discord.gg/6CJAUx2"><i class="fab fa-discord"></i> Discord</a></li>
                                 </ul>
                             </div>
                         </div>
