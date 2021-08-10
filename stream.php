@@ -23,10 +23,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn">
-                    <span>See the detail</span>
-                    <i class="icon-chevron-down"></i>
-                </a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -67,12 +64,15 @@
                                     <tr>
                                         <td></td>
                                         <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
-                                        <td><img src="theme/images/logos/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
-                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
-                                        <td><img src="theme/images/logos/cs2015_110x50.png" alt="construction simulator 2015"/></td>
-                                        <td><img src="theme/images/logos/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="theme/images/logos/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td>
+                                            <i class="fas fa-random"></i>
+                                            <img src="images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
+                                        </td>
+                                        <td><img src="images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
                                     </tr>
                                     <tr>
                                         <td>EEST/EEST</td>

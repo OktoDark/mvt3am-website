@@ -22,10 +22,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn">
-                    <span>See the detail</span>
-                    <i class="icon-chevron-down"></i>
-                </a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -34,8 +31,7 @@
                     <div class="col-md-12">
                         <div class="row row-bottom-padded-sm animate-box">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Mods
-                                </h3>
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Mods</h3>
                             </div>
                             <div class="col-md-9">
                                 <p class="fh5co-lead">
@@ -334,4 +330,3 @@ Zero MiniAVC (ZeroMiniAVC 1:1.1.0.1)
             </div>
         </div>
         <?php include 'parts/footer.php';?>
-
