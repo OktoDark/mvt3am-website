@@ -26,5 +26,6 @@
         <script src="theme/js/main.js"></script>
         <script src="theme/js/modernizr-2.6.2.min.js"></script>
         <script src="theme/js/respond.min.js"></script>
+        <script src="https://getbootstrap.com/docs/5.1/assets/js/docs.min.js"></script>
     </body>
 </html>

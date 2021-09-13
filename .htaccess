@@ -7,5 +7,6 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^home?$ index.php [QSA,NC,L]
 RewriteRule ^about?$ about.php [QSA,NC,L]
 RewriteRule ^ksp_mods?$ ksp_mods.php [QSA,NC,L]
+RewriteRule ^fs19_mods?$ fs19_mods.php [QSA,NC,L]
 RewriteRule ^stream?$ stream.php [QSA,NC,L]
 RewriteRule ^contest?$ contest.php [QSA,NC,L]

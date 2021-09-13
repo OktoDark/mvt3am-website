@@ -69,6 +69,7 @@
                                         <td>
                                             <i class="fas fa-random"></i>
                                             <img src="images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
+                                            <img src="images/games/fs_110x50.png" alt="fs"/>
                                         </td>
                                         <td><img src="images/games/ksp_110x50.png" alt="kerbal space program"/></td>
                                         <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
@@ -173,6 +174,19 @@
                                                 </ul>
                                             </td>
                                             <td><i class="fas fa-times"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fab fa-steam"></i></td>
+                                            <td>Farming Simulator
+                                                <ul style="text-align: left;">
+                                                    <li>Farming Simulator 2011</li>
+                                                    <li>Farming Simulator 2013</li>
+                                                    <li>Farming Simulator 2015</li>
+                                                    <li>Farming Simulator 2017</li>
+                                                    <li>Farming Simulator 2019 (<a href="fs19_mods">mods</a>)</li>
+                                                </ul>
+                                            </td>
+                                            <td><i class="fas fa-check"></i></td>
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
