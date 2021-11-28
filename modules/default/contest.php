@@ -1,16 +1,15 @@
-<?php include 'parts/head.php';?>
-    <title>mvt3am - Contest</title>
-    <?php include 'parts/head_scripts.php';?>
-</head>
-<body>
+        <title>Contest | <?php echo $siteName;?></title>
+    </head>
+    <body>
+    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
             <ul>
-                <li class="animate-box"><a href="home" class="transition">Home</a></li>
-                <li class="animate-box"><a href="stream" class="transition">Stream</a></li>
-                <li class="animate-box fh5co-active"><a href="contest" class="transition">Contest</a></li>
-                <li class="animate-box"><a href="about" class="transition">Bio</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
+                <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
             </ul>
         </nav>
         <header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
@@ -91,4 +90,3 @@
                 </div>
             </div>
         </div>
-        <?php include 'parts/footer.php';?>

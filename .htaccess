@@ -1,12 +1,14 @@
 #Options +FollowSymLinks
 RewriteEngine On
- 
+
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
- 
-RewriteRule ^home?$ index.php [QSA,NC,L]
-RewriteRule ^about?$ about.php [QSA,NC,L]
-RewriteRule ^ksp_mods?$ ksp_mods.php [QSA,NC,L]
-RewriteRule ^fs19_mods?$ fs19_mods.php [QSA,NC,L]
-RewriteRule ^stream?$ stream.php [QSA,NC,L]
-RewriteRule ^contest?$ contest.php [QSA,NC,L]
+
+# Pages
+RewriteRule ^home?$ index.php [L]
+RewriteRule ^about?$ index.php?od=about
+RewriteRule ^stream?$ index.php?od=stream
+RewriteRule ^contest?$ index.php?od=contest
+# Mods
+RewriteRule ^mods/fs19?$ index.php?od=fs19_mods
+RewriteRule ^mods/ksp?$ index.php?od=ksp_mods

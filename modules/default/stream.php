@@ -1,16 +1,15 @@
-<?php include 'parts/head.php' ?>
-        <title>mvt3am - Stream</title>
-        <?php include 'parts/head_scripts.php'?>
-</head>
-<body>
+        <title>Stream | <?php echo $siteName;?></title>
+    </head>
+    <body>
+    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
             <ul>
-                <li class="animate-box"><a href="home" class="transition">Home</a></li>
-                <li class="animate-box fh5co-active"><a href="stream" class="transition">Stream</a></li>
-                <li class="animate-box"><a href="contest" class="transition">Contest</a></li>
-                <li class="animate-box"><a href="about" class="transition">Bio</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
+                <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
             </ul>
         </nav>
         <header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
@@ -63,16 +62,16 @@
                                     <tr>
                                         <td></td>
                                         <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
-                                        <td><img src="images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
-                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="../../templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
                                         <td>
                                             <i class="fas fa-random"></i>
-                                            <img src="images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
-                                            <img src="images/games/fs_110x50.png" alt="fs"/>
+                                            <img src="../../templates/misc/images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
+                                            <img src="../../templates/misc/images/games/fs_110x50.png" alt="fs"/>
                                         </td>
-                                        <td><img src="images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="../../templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
                                     </tr>
                                     <tr>
                                         <td>EEST/EEST</td>
@@ -127,7 +126,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
+                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="../../templates/misc/images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
                                 <h3>My Games</h3>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
@@ -183,7 +182,7 @@
                                                     <li>Farming Simulator 2013</li>
                                                     <li>Farming Simulator 2015</li>
                                                     <li>Farming Simulator 2017</li>
-                                                    <li>Farming Simulator 2019 (<a href="fs19_mods">mods</a>)</li>
+                                                    <li>Farming Simulator 2019 (<a href="mods/fs19">mods</a>)</li>
                                                 </ul>
                                             </td>
                                             <td><i class="fas fa-check"></i></td>
@@ -215,7 +214,7 @@
                                         </tr>
                                         <tr>
                                             <td>GOG</td>
-                                            <td>Kerbal Space Program (<a href="ksp_mods">mods</a>)</td>
+                                            <td>Kerbal Space Program (<a href="mods/ksp">mods</a>)</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                     </tbody>
@@ -271,5 +270,5 @@
                 </div>
             </div>
         </div>
-        <?php include 'parts/footer.php';?>
+        <?php include 'footer.php';?>
 

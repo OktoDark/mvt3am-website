@@ -1,49 +1,43 @@
-<?php include 'parts/head.php';?>
-        <title>mvt3am - Home Page</title>
-        <?php include 'parts/head_scripts.php';?>
-</head>
-<body>
-    <!-- Loader -->
-    <div class="fh5co-loader"></div>
-    <div id="fh5co-page">
-        <nav id="fh5co-nav" role="navigation">
-            <ul>
-                <li class="animate-box fh5co-active"><a href="home" class="transition">Home</a></li>
-                <li class="animate-box"><a href="stream" class="transition">Stream</a></li>
-                <li class="animate-box"><a href="contest" class="transition">Contest</a></li>
-                <li class="animate-box"><a href="about" class="transition">Bio</a></li>
-            </ul>
-        </nav>
-        <header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
-            <div class="container">
-                <div class="fh5co-text-wrap animate-box">
-                    <div class="fh5co-intro-text">
-                        <h1>I&acute;m a 34 year old streamer on Twitch, Web Developer, Game Developer, Music Producer<span>and</span> living <span>in</span> Romania</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See my portfolio</span><i class="icon-chevron-down"></i></a>
-            </div>
-        </header>
-        <!-- data-colorbg="#8cc53e"  -->
-        <div class="fh5co-project js-fh5co-waypoint" data-bgcolor="" data-next="yes">
-            <div class="container">
-                <div class="fh5co-project-inner row">
-                    <div class="fh5co-imgs col-md-8 animate-box">
-                        <div class="img-holder-1 animate-box">
-                            <img src="images/oktodark/the_school.png" alt="" width="600" height="461">
-                        </div>
-                        <div class="img-holder-2 animate-box">
-                            <img src="images/oktodark/blockade.png" alt="">
-                        </div>
-                    </div>
-                    <div class="fh5co-text col-md-4 animate-box">
-                        <h2>Game Dev</h2>
-                        <p>So far I working to finish the Blockade game, and yes is a free game.</p>
-                        <p><a href="https://www.oktodark.com/en/games" class="btn btn-light btn-outline transition">View Projects</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <?php include 'parts/footer.php';?>
+<?php
+/**
+ * Copyright (c) 2013 - 2021 OktoDark Studios
+ * Website: https://www.oktodark.com
+ *
+ * Author: Razvan George H. (Viruzzz)
+ *
+ * File date of modification: 08.11.2021, 17:56
+ */
+
+/**
+ * Session expires
+ */
+session_cache_expire(30);
+$cache_expire = session_cache_expire(); // if want to show to the page
+
+ob_start();
+session_start();
+
+define('OktoDark', true);
+define('__DIR__', dirname(dirname(__FILE__)));
+define('__INC_DIR__', __DIR__."/config");
+define('__THEME_DIR__', __DIR__."/templates");
+
+define ('BASE_HREF' , 'https://' . $_SERVER['HTTP_HOST'] . dirname( $_SERVER['PHP_SELF'] ) . '/');
+
+/**
+ * File Includes
+ */
+require_once(__INC_DIR__ .'/configuration.php');
+require_once(__INC_DIR__ .'/function.php');
+
+getSettings();
+
+$value = 'member_login';
+
+setcookie("mvt3am", $value);
+setcookie("mvt3am", $value, time()+3600);  /* expire in 1 hour */
+
+/**
+ * Website Theme
+ */
+include(__THEME_DIR__.'/'.$theme.'/'.$theme. '.php');
