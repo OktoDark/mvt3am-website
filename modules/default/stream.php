@@ -62,16 +62,16 @@
                                     <tr>
                                         <td></td>
                                         <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
-                                        <td><img src="../../templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
-                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
                                         <td>
                                             <i class="fas fa-random"></i>
-                                            <img src="../../templates/misc/images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
-                                            <img src="../../templates/misc/images/games/fs_110x50.png" alt="fs"/>
+                                            <img src="<?php echo BASE_HREF;?>templates/misc/images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
+                                            <img src="<?php echo BASE_HREF;?>templates/misc/images/games/fs_110x50.png" alt="fs"/>
                                         </td>
-                                        <td><img src="../../templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                        <td><img src="../../templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                        <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
+                                        <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
                                     </tr>
                                     <tr>
                                         <td>EEST/EEST</td>
