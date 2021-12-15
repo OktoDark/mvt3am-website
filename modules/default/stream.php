@@ -126,7 +126,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="../../templates/misc/images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
+                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="<?php echo BASE_HREF;?>templates/misc/images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
                                 <h3>My Games</h3>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
