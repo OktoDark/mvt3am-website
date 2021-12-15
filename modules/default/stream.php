@@ -149,7 +149,7 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Workers & Resources: Soviet Republic</td>
+                                            <td>Workers & Resources: Soviet Republic <br> <div class="note">I play with 99.8% of all mods from the workshop without the Maps because I not need them.</div></td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>

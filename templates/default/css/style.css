@@ -40,6 +40,11 @@ a:hover, a:active, a:focus {
   border-bottom: 2px solid white;
 }
 
+.note {
+  font-size: 12px !important;
+  color: blanchedalmond !important;
+}
+
 p, figure {
   margin-bottom: 1.5em;
 }
