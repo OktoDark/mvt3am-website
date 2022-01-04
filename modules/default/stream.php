@@ -170,6 +170,7 @@
                                                     <li>Lara Croft and the Temple of Osiris (2014)</li>
                                                     <li>Lara Croft GO (2015)</li>
                                                     <li>Rise of Tomb Raider (2015)</li>
+                                                    <li>Shadow of the Tomb Raider: Definitive Edition (2018)</li>
                                                 </ul>
                                             </td>
                                             <td><i class="fas fa-times"></i></td>
