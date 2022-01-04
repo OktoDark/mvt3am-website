@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="fh5co-text-wrap animate-box">
                     <div class="fh5co-intro-text">
-                        <h1>I&acute;m a 34 year old streamer on Twitch, Web Developer, Game Developer, Music Producer<span>and</span> living <span>in</span> Romania</h1>
+                        <h1>Welcome!<br>Have fun watching me on Twitch! <i class="fas fa-hand-peace"></i></h1>
                     </div>
                 </div>
             </div>
