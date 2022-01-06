@@ -213,7 +213,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 4</span> Mods list</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>The list will update if is exist modification/once on week and so on. You can download it: <a href="https://oktodark.com/mvt3am/files/fs19_mods.pdf"><i class="far fa-file-pdf"></i></a></p>
+                                <p>The list will update if is exist modification/once on week and so on. You can download it: <a href="<?php echo BASE_HREF;?>files/fs19_mods.pdf"><i class="far fa-file-pdf"></i></a></p>
                             </div>
                             <div class="col-md-3">
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 5</span> Download All Mods</h3>
