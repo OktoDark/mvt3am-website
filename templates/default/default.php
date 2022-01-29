@@ -49,6 +49,7 @@
     <script src="<?php echo BASE_HREF;?>/templates/default/js/modernizr-2.6.2.min.js"></script>
     <script src="<?php echo BASE_HREF;?>/templates/default/js/respond.min.js"></script>
     <script src="https://getbootstrap.com/docs/5.1/assets/js/docs.min.js"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </body>
 </html>
 <?php if(SCHEDULED_MAINTENANCE == 1) { header('Location:'.UNDER_CONSTRUCTION_PAGE); } ?>

@@ -213,12 +213,12 @@
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Origin</td>
+                                            <td><span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span></td>
                                             <td>The Sims 4</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>GOG</td>
+                                            <td><span class="iconify" data-icon="mdi:gog" style="color: #fff;" data-width="25" data-height="25"></span></td>
                                             <td>Kerbal Space Program (<a href="mods/ksp">mods</a>)</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
