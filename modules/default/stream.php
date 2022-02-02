@@ -39,6 +39,12 @@
                                     <i class="fas fa-exclamation-triangle"></i> I don't stream when it launches a rocket on the same day as my stream (not count launches from China and Russia).<br>
                                     <i class="fas fa-exclamation-triangle"></i> The music from all games are turned off due to licence copyrights
                                 </p>
+                                <?php
+                                $file = "calendar.json";
+                                $data = file_get_contents($file);
+                                $obj = json_decode($data);
+                                ?>
+
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
                                         <tr>
@@ -66,16 +72,12 @@
                                         <tr>
                                             <td></td>
                                             <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
-                                            <td>
-                                                <i class="fas fa-random"></i>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/cs2015_110x50.png" alt="construction simulator 2015"/>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/fs_110x50.png" alt="fs"/>
-                                            </td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/ksp_110x50.png" alt="kerbal space program"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/thesims4_110x50.png" alt="the sims 4"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/></td>
+                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/></td>
                                         </tr>
                                         <tr>
                                             <td>EEST/EEST</td>
@@ -84,8 +86,8 @@
                                             <td><i class="far fa-clock"></i> 5PM</td>
                                             <td><i class="far fa-clock"></i> 5PM</td>
                                             <td><i class="far fa-clock"></i> 5PM</td>
-                                            <td><i class="far fa-clock"></i> 3PM</td>
-                                            <td><i class="far fa-clock"></i> 3PM</td>
+                                            <td><i class="far fa-clock"></i> 5PM</td>
+                                            <td><i class="far fa-clock"></i> 5PM</td>
                                         </tr>
                                         <tr>
                                             <td>UTC</td>
@@ -94,8 +96,8 @@
                                             <td><i class="far fa-clock"></i> 3PM</td>
                                             <td><i class="far fa-clock"></i> 3PM</td>
                                             <td><i class="far fa-clock"></i> 3PM</td>
-                                            <td><i class="far fa-clock"></i> 1PM</td>
-                                            <td><i class="far fa-clock"></i> 1PM</td>
+                                            <td><i class="far fa-clock"></i> 3PM</td>
+                                            <td><i class="far fa-clock"></i> 3PM</td>
                                         </tr>
                                         <tr>
                                             <td>EDT/EDT</td>
@@ -104,8 +106,8 @@
                                             <td><i class="far fa-clock"></i> 10AM</td>
                                             <td><i class="far fa-clock"></i> 10AM</td>
                                             <td><i class="far fa-clock"></i> 10AM</td>
-                                            <td><i class="far fa-clock"></i> 8AM</td>
-                                            <td><i class="far fa-clock"></i> 8AM</td>
+                                            <td><i class="far fa-clock"></i> 10AM</td>
+                                            <td><i class="far fa-clock"></i> 10AM</td>
                                         </tr>
                                         <tr>
                                             <td>PST/PDT</td>
@@ -114,8 +116,8 @@
                                             <td><i class="far fa-clock"></i> 7AM</td>
                                             <td><i class="far fa-clock"></i> 7AM</td>
                                             <td><i class="far fa-clock"></i> 7AM</td>
-                                            <td><i class="far fa-clock"></i> 5AM</td>
-                                            <td><i class="far fa-clock"></i> 5AM</td>
+                                            <td><i class="far fa-clock"></i> 7AM</td>
+                                            <td><i class="far fa-clock"></i> 7AM</td>
                                         </tr>
                                     </tbody>
                                 </table>

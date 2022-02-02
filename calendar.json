@@ -1,0 +1,42 @@
+[{
+  "_comment": "Game Text and Icon",
+  "wrsr": "Workers & Resources: Soviet Republic",
+  "wrsr_icon": "wrsr_logo_110x50",
+  "tsw2": "Train Sim World 2",
+  "tsw2_icon": "tsw2_110x50"
+}, {
+  "day" : "Monday",
+  "hour": "",
+  "name": "",
+  "icon": ""
+}, {
+  "day" : "Tuesday",
+  "hour": "",
+  "name": "Workers & Resources: Soviet Republic",
+  "icon": "wrsr_logo_110x50"
+}, {
+  "day" : "Wednesday",
+  "hour": "",
+  "name": "Workers & Resources: Soviet Republic",
+  "icon": "wrsr_logo_110x50"
+}, {
+  "day" : "Thursday",
+  "hour": "",
+  "name": "Workers & Resources: Soviet Republic",
+  "icon": "wrsr_logo_110x50"
+}, {
+  "day" : "Friday",
+  "hour": "",
+  "name": "Workers & Resources: Soviet Republic",
+  "icon": "wrsr_logo_110x50"
+}, {
+  "day" : "Saturday",
+  "hour": "",
+  "name": "Train Sim World 2",
+  "icon": "tsw2_110x50"
+}, {
+  "day" : "Sunday",
+  "hour": "tsw2_110x50",
+  "name" : "Train Sim World 2",
+  "icon": "tsw2_110x50"
+}]
