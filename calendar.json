@@ -1,9 +1,19 @@
 [{
   "_comment": "Game Text and Icon",
-  "wrsr": "Workers & Resources: Soviet Republic",
-  "wrsr_icon": "wrsr_logo_110x50",
+  "cs2015": "Construction-Simulator 2015",
+  "cs2015_icon": "cs2015_110x50",
+  "fs": "Farming Simulator",
+  "fs_icon": "fs_110x50",
+  "fs19": "Farming Simulator 19",
+  "fs19_icon": "fs19_110x50",
+  "thesims": "The Sims 4",
+  "thesims4_icon": "thesims4_110x50",
   "tsw2": "Train Sim World 2",
-  "tsw2_icon": "tsw2_110x50"
+  "tsw2_icon": "tsw2_110x50",
+  "ksp": "Kerbal Space Program",
+  "ksp_icon": "ksp_110x50",
+  "wrsr": "Workers & Resources: Soviet Republic",
+  "wrsr_icon": "wrsr_110x50"
 }, {
   "day" : "Monday",
   "hour": "",
@@ -11,32 +21,32 @@
   "icon": ""
 }, {
   "day" : "Tuesday",
-  "hour": "",
+  "hour": "17",
   "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_logo_110x50"
+  "icon": "wrsr_110x50"
 }, {
   "day" : "Wednesday",
-  "hour": "",
+  "hour": "17",
   "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_logo_110x50"
+  "icon": "wrsr_110x50"
 }, {
   "day" : "Thursday",
-  "hour": "",
+  "hour": "17",
   "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_logo_110x50"
+  "icon": "wrsr_110x50"
 }, {
   "day" : "Friday",
-  "hour": "",
+  "hour": "17",
   "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_logo_110x50"
+  "icon": "wrsr_110x50"
 }, {
   "day" : "Saturday",
-  "hour": "",
+  "hour": "17",
   "name": "Train Sim World 2",
   "icon": "tsw2_110x50"
 }, {
   "day" : "Sunday",
-  "hour": "tsw2_110x50",
-  "name" : "Train Sim World 2",
+  "hour": "17",
+  "name": "Train Sim World 2",
   "icon": "tsw2_110x50"
 }]

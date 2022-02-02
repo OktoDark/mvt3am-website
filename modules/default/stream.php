@@ -71,7 +71,10 @@
                                         </tr>
                                         <tr>
                                             <td></td>
-                                            <td style="padding: 1em 0 0 0;"><i class="fas fa-random"></i></td>
+                                            <td>
+                                                <i class="fas fa-random calendar-c"></i>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>"/>
+                                            </td>
                                             <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/></td>
                                             <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/></td>
                                             <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/></td>
