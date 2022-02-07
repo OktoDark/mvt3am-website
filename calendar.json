@@ -13,40 +13,49 @@
   "ksp": "Kerbal Space Program",
   "ksp_icon": "ksp_110x50",
   "wrsr": "Workers & Resources: Soviet Republic",
-  "wrsr_icon": "wrsr_110x50"
+  "wrsr_icon": "wrsr_110x50",
+  "warning_random": "<i class=\"fas fa-random calendar-c\"></i>",
+  "warning_no_stream": "<i class=\"fas fa-times calendar-c\"></i>"
 }, {
   "day" : "Monday",
   "hour": "",
   "name": "",
-  "icon": ""
+  "icon": "",
+  "warning": "<i class=\"fas fa-random calendar-c\"></i>"
 }, {
   "day" : "Tuesday",
   "hour": "17",
-  "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }, {
   "day" : "Wednesday",
   "hour": "17",
-  "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }, {
   "day" : "Thursday",
   "hour": "17",
-  "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }, {
   "day" : "Friday",
   "hour": "17",
-  "name": "Workers & Resources: Soviet Republic",
-  "icon": "wrsr_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }, {
   "day" : "Saturday",
   "hour": "17",
-  "name": "Train Sim World 2",
-  "icon": "tsw2_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }, {
   "day" : "Sunday",
   "hour": "17",
-  "name": "Train Sim World 2",
-  "icon": "tsw2_110x50"
+  "name": "",
+  "icon": "",
+  "warning": ""
 }]

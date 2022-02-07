@@ -72,15 +72,33 @@
                                         <tr>
                                             <td></td>
                                             <td>
-                                                <i class="fas fa-random calendar-c"></i>
+                                                <?php echo $obj[1]->warning; ?>
                                                 <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>"/>
                                             </td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/></td>
-                                            <td><img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/></td>
+                                            <td>
+                                                <?php echo $obj[2]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/>
+                                            </td>
+                                            <td>
+                                                <?php echo $obj[3]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/>
+                                            </td>
+                                            <td>
+                                                <?php echo $obj[4]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/>
+                                            </td>
+                                            <td>
+                                                <?php echo $obj[5]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/>
+                                            </td>
+                                            <td>
+                                                <?php echo $obj[6]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/>
+                                            </td>
+                                            <td>
+                                                <?php echo $obj[7]->warning; ?>
+                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>EEST/EEST</td>
