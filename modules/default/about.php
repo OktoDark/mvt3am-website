@@ -78,10 +78,11 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 4</span> Contact</h3>
                             </div>
                             <div class="col-md-9">
-                                <ul class="fh5co-social fh5co-stack">
-                                    <li><a href="http://www.twitter.com/mvt3am"><i class="icon-twitter"></i> Twitter</a></li>
-                                    <li><a href="https://discord.gg/6CJAUx2"><i class="fab fa-discord"></i> Discord</a></li>
-                                </ul>
+                                <a href="https://www.twitter.com/mvt3am"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mvt3am?style=social"></a><br>
+                                <a href="https://www.youtube.com/channel/UCzPfw3b7L4oVr9C4BykM-8w"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCzPfw3b7L4oVr9C4BykM-8w?style=social"></a><br>
+                                <a href="https://www.github.com/Viruzzz"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Viruzzz?style=social"></a><br>
+                                <a href="https://www.twitch.com/mvt3am"><img alt="Twitch Status" src="https://img.shields.io/twitch/status/mvt3am?style=social"></a><br>
+                                <a href="https://discord.gg/6CJAUx2"><img alt="Discord" src="https://img.shields.io/discord/249879657187377152.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"></a>
                             </div>
                         </div>
                     </div>
