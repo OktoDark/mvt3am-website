@@ -1,5 +1,7 @@
 [{
   "_comment": "Game Text and Icon",
+  "acc": "Assetto Corsa Competizione",
+  "acc_icon": "acc_110x50",
   "cs2015": "Construction-Simulator 2015",
   "cs2015_icon": "cs2015_110x50",
   "fs": "Farming Simulator",
@@ -12,6 +14,8 @@
   "tsw2_icon": "tsw2_110x50",
   "ksp": "Kerbal Space Program",
   "ksp_icon": "ksp_110x50",
+  "rf2": "rFactor 2",
+  "rf2_icon": "rf2_110x50",
   "wrsr": "Workers & Resources: Soviet Republic",
   "wrsr_icon": "wrsr_110x50",
   "warning_random": "<i class=\"fas fa-random calendar-c\"></i>",
