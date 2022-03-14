@@ -70,34 +70,34 @@
                                             <td><i class="fas fa-check"></i></td>
                                         </tr>
                                         <tr>
-                                            <td></td>
+                                            <td class="calendar-c">Game</td>
                                             <td>
                                                 <?php echo $obj[1]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[2]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[3]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[4]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[5]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[6]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/>
                                             </td>
                                             <td>
                                                 <?php echo $obj[7]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>templates/misc/images/games/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/>
                                             </td>
                                         </tr>
                                         <tr>
@@ -153,7 +153,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="<?php echo BASE_HREF;?>templates/misc/images/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
+                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="<?php echo BASE_HREF;?>assets/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
                                 <h3>My Games</h3>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
