@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: #ffab00;
+  color: #919191;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -43,6 +43,11 @@ a:hover, a:active, a:focus {
 .note {
   font-size: 12px !important;
   color: blanchedalmond !important;
+}
+
+.db {
+  color: #000;
+  background-color: #ffab00 !important;
 }
 
 p, figure {

@@ -37,8 +37,8 @@
                             <div class="col-md-9">
                                 <p>
                                     I do streaming only 6 days per week from Tuesday - Sunday, Monday I have day off.<br>
-                                    <i class="fas fa-exclamation-triangle"></i> I don't stream when it launches a rocket on the same day as my stream (not count launches from China and Russia).<br>
-                                    <i class="fas fa-exclamation-triangle"></i> The music from all games are turned off due to licence copyrights
+                                    <i class="fas fa-exclamation-triangle"></i> I not streaming when it is launched a rocket on the same day and hour as me. (not count launches from China and Russia)<br>
+                                    <i class="fas fa-exclamation-triangle"></i> The music from all games are been turned off due to licence copyrights.
                                 </p>
                                 <?php
                                 $file = "calendar.json";
@@ -144,14 +144,16 @@
                                     </tbody>
                                 </table>
                                 <p>
-                                    <i class="fas fa-asterisk"></i> - is mean can be streaming, without mention of the hour start<br>
-                                    <i class="fas fa-random"></i> - is mean can be random game without announcement
+                                    Legend:<br>
+                                    <i class="fas fa-times fa-fw"></i> - is mean the streaming has been canceled for today<br>
+                                    <i class="fas fa-asterisk fa-fw"></i> - is mean can be streaming, without mention of start hour<br>
+                                    <i class="fas fa-random fa-fw"></i> - is mean can be random game without announcement
                                 </p>
                             </div>
                         </div>
                         <div class="row animate-box row-bottom-padded-sm">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
+                                <h3 class="fh5co-section-heading" id="games"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
                                 <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="<?php echo BASE_HREF;?>assets/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
@@ -163,8 +165,8 @@
                                             <th>Game</th>
                                             <th>Multiplayer</th>
                                         </tr>
-                                        </thead>
-                                        <tbody>
+                                    </thead>
+                                    <tbody>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
                                             <td>Euro Truck Simulator 2</td>
@@ -177,7 +179,7 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Workers & Resources: Soviet Republic<br><div class="note">I play with 99.8% of all mods from the workshop without the Maps because I not need them.</div></td>
+                                            <td>Workers & Resources: Soviet Republic<br><div class="note">I play with 99.8% of all mods from workshop without Maps because I not need them.</div></td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
