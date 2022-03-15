@@ -9,6 +9,7 @@
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
                 <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>donation_box" class="transition">Donation Box</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
             </ul>
         </nav>
@@ -31,7 +32,7 @@
                     <div class="col-md-12">
                         <div class="row row-bottom-padded-sm animate-box">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Schedule</h3>
+                                <h3 class="fh5co-section-heading" id="schedule"><span class="fh5co-number">N<sup>o</sup> 1</span> Schedule</h3>
                             </div>
                             <div class="col-md-9">
                                 <p>
@@ -249,53 +250,8 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="row animate-box row-bottom-padded-sm">
-                            <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Points and Reward</h3>
-                            </div>
-                            <div class="col-md-9">
-                                <p class="fh5co-lead">Watch me on my twitch channel and earn points.</p>
-                                <h3>Description</h3>
-                                In my channel the Yoshikobot in different time you earn points, only if you are watching when I stream.<br>
-                                You start to earn points on every 30 minutes or less spent on my channel.<br>
-                                If you are new on my channel you must to wait 5-20 minutes before to earn points.<br><br>
-                                <h3>Points Bonus List</h3>
-                                <ul>
-                                    <li>Live - 1 Point (<i>watching me</i>)</li>
-                                    <li>Follow - 10 Points (<i>you follow me</i>)</li>
-                                    <li>Active - 1 Point (<i>write on chat</i>)</li>
-                                    <li>Host - 3 Points (<i>use the /host command</i>)</li>
-                                </ul>
-                                <br>
-                                <h3>Ranks</h3>
-                                <ul>
-                                    <li>250 - Initiate</li>
-                                    <li>500 - Key Keeper</li>
-                                    <li>750 - Knight</li>
-                                    <li>800 - Winner of Cup (*)</li>
-                                    <li>1000 - First Sword</li>
-                                </ul>
-                                <i>The title ranks can be changed in time but not the Points.</i><br>
-                                <h3>Legend</h3>
-                                * You can win a reward if you have Points see the twitter if in a month, week you can earn Rewards.<br>
-                                <h3>FAQ</h3>
-                                <b>Why I not earn points?</b><br>
-                                You not earn points if you not Follow me.<br>
-                                <b>If donated I can receive points?</b><br>
-                                Yes you receive points, ex 1&euro; = 50 Points same as for $. (can be more points with every donation)<br>
-                                <b>I donated but I not receive the points</b><br>
-                                Send me a message private and in short time you have it all.<br>
-                                <b>If I donated 100&euro; / $ how many points I win?</b><br>
-                                You not win, you earn 10.000 points and You will have a special rank only for you. The title you choice it only for you.<br>
-                                <b>I can buy something else with Points?</b><br>
-                                Yes, as soon the our shop is complete.<br>
-                                <b>I donated / I watching you everytime what I earn?</b><br>
-                                You earn Points and my respect.
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <?php include 'footer.php';?>
-

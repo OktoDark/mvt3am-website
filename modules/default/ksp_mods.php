@@ -9,6 +9,7 @@
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
+                <li class="animate-box"><a href="<?php echo BASE_HREF;?>donation_box" class="transition">Donation Box</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
             </ul>
         </nav>

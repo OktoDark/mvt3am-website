@@ -9,6 +9,9 @@ RewriteRule ^home?$ index.php [L]
 RewriteRule ^about?$ index.php?od=about
 RewriteRule ^stream?$ index.php?od=stream
 RewriteRule ^contest?$ index.php?od=contest
+RewriteRule ^chat_commands?$ index.php?od=chat_cmd
+RewriteRule ^donation_box?$ index.php?od=donation_box
+RewriteRule ^points_n_rewards?$ index.php?od=points_n_rewards
 # Mods
 RewriteRule ^mods/fs19?$ index.php?od=fs19_mods
 RewriteRule ^mods/ksp?$ index.php?od=ksp_mods

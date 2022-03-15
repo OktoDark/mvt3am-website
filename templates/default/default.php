@@ -22,20 +22,24 @@
         else $od = "modules/default/home.php";
         include($od);
         ?>
-        <footer id="fh5co-footer" class="js-fh5co-waypoint">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p><small>&copy; 2016-<?php echo date('Y')?> mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>
-                        <ul class="fh5co-social-footer">
-                            <li><a href="http://www.twitter.com/mvt3am"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCzPfw3b7L4oVr9C4BykM-8w"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="https://discord.gg/x8GRPhq"><i class="fab fa-discord"></i></a></li>
-                        </ul>
-                    </div>
+        <div class="container">
+            <footer id="fh5co-footer" class="js-fh5co-waypoint py-3 my-4">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="<?php echo BASE_HREF;?>chat_commands" class="transition">Chat Commands</a></li>
+                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="<?php echo BASE_HREF;?>points_n_rewards" class="transition">Points and Rewards</a></li>
+                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="" class="transition">Giveaways</a></li>
+                </ul>
+                <div class="fh5co-footer-top-bar"></div>
+                <div class="d-flex justify-content-between py-4 my-4">
+                    <p><small>&copy; 2016-<?php echo date('Y')?> mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>
+                    <ul class="fh5co-social-footer list-unstyled d-flex">
+                        <li><a href="http://www.twitter.com/mvt3am"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCzPfw3b7L4oVr9C4BykM-8w"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://discord.gg/x8GRPhq"><i class="fab fa-discord"></i></a></li>
+                    </ul>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
     <script src="<?php echo BASE_HREF;?>templates/default/js/jquery.min.js"></script>
     <script src="<?php echo BASE_HREF;?>templates/default/js/jquery.cookie.js"></script>

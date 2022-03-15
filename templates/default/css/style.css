@@ -647,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-footer {
-  padding: 7em 0em;
+  padding: 7em 0em !important;
   color: rgba(255, 255, 255, 0.2);
   position: relative;
 }
@@ -665,6 +665,10 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: skewY(-7deg);
   -o-transform: skewY(-7deg);
   transform: skewY(-7deg);
+}
+
+.fh5co-footer-top-bar {
+  border-top: 1px solid #FFFFFF19 !important;
 }
 
 .fh5co-project-detail {
