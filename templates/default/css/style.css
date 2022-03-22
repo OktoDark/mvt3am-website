@@ -249,6 +249,21 @@ h1, h2, h3, h4, h5, h6 {
 	color: red;
 }
 
+.video-series {
+  font-size: 14px;
+}
+
+.collapse-video-series {
+  width: fit-content;
+  margin: auto;
+}
+
+.card-video-series {
+  background: none;
+  border-block: azure;
+  border-style: solid;
+}
+
 #fh5co-nav {
   text-align: center;
   position: absolute;

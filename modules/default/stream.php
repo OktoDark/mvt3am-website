@@ -179,7 +179,19 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Workers & Resources: Soviet Republic<br><div class="note">I play with 99.8% of all mods from workshop without Maps because I not need them.</div></td>
+                                            <td>
+                                                Workers & Resources: Soviet Republic<br><div class="note">I play with 99.8% of all mods from workshop without Maps because I not need them.</div>
+                                                <div class="video-series">
+                                                    Video Series:
+                                                    <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#wrsr" role="button" aria-expanded="false" aria-controls="wrsr"></a>
+                                                    <br>
+                                                    <div class="collapse collapse-video-series" id="wrsr">
+                                                        <div class="card card-body card-video-series">
+                                                            <a href="https://www.youtube.com/playlist?list=PLHJrf1Xjvhg8Kw5s3NvsHUedxnhYvyUVI">The New Country</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
@@ -240,7 +252,19 @@
                                         </tr>
                                         <tr>
                                             <td><span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span></td>
-                                            <td>The Sims 4</td>
+                                            <td>
+                                                The Sims 4<br>
+                                                <div class="video-series">
+                                                    Video Series:
+                                                    <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#thesims4" role="button" aria-expanded="false" aria-controls="thesims4"></a>
+                                                    <br>
+                                                    <div class="collapse collapse-video-series" id="thesims4">
+                                                        <div class="card card-body card-video-series">
+                                                            <a href="https://www.youtube.com/playlist?list=PLHJrf1Xjvhg9SmzfdmfEyGL8FXHCIQsr7">The Dynasty</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
