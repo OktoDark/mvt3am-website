@@ -35,13 +35,12 @@
                             </div>
                             <div class="col-md-9">
                                 <p>
-                                    What is Donation Box?!<br>
-                                    The Donation Box it is help me to keep the stream online for every month.<br>
-                                    I can increased limit from 2h to -> more hours and other (see below no3).<br>
-                                    The bar will be filled only with &euro; not with percent!<br>
-                                    Every bar progress I open a box or I close depend of every month.<br>
+                                    What is the Donation Box?!<br>
+                                    The Donation Box it is for helping me to keep the stream online for every month.<br>
+                                    I can increase limit of streaming from 2 hours -> see below no3 for more information<br>
+                                    This bar will be filled only with &euro; not with percent!<br>
+                                    For every stage completed I open a box or I close it, depend of every month..<br>
                                     <br>
-                                    Soon Information where you can donate!
                                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                         <input type="hidden" name="cmd" value="_s-xclick">
                                         <input type="hidden" name="hosted_button_id" value="HZ3EC636WYMBN">
@@ -72,9 +71,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> <i class="fas fa-box"></i></h3>
                             </div>
                             <div class="col-md-9">
-                                <p>
-                                    Keep the bar filled to can keep the stage active.
-                                </p>
+                                <p>Keep the bar filled for stage reward.</p>
                                  <div class="progress">
                                      <div class="progress-bar progress-bar-striped db" role="progressbar" style="width: 0;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0</div>
                                  </div>
@@ -85,11 +82,11 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Stages</h3>
                             </div>
                             <div class="col-md-9">
-                                Donation Box Process
+                                Where we are?
                                <table class="table table-bordered table-dark fh5co-text-calendar" style="width: 60%">
                                     <thead>
                                         <tr>
-                                            <td>0 &euro;</td>
+                                            <td style="background-color: green;">0 &euro;</td>
                                             <td>Closed Box</td>
                                         </tr>
                                     </thead>
@@ -117,7 +114,7 @@
                                     </tbody>
                                 </table>
                                 <p>
-                                    Note: Some can be changed without notice!
+                                    Note: Information can be changed without notice!
                                 </p>
                             </div>
                         </div>
