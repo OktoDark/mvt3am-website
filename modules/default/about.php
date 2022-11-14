@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-md-9">
                                 <a href="https://www.twitter.com/mvt3am"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mvt3am?style=social"></a><br>
-                                <a href="https://www.youtube.com/channel/UCzPfw3b7L4oVr9C4BykM-8w"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCzPfw3b7L4oVr9C4BykM-8w?style=social"></a><br>
+                                <a href="https://www.youtube.com/@mvt3amOfficial"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCzPfw3b7L4oVr9C4BykM-8w?style=social"></a><br>
                                 <a href="https://www.github.com/Viruzzz"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Viruzzz?style=social"></a><br>
                                 <a href="https://www.twitch.com/mvt3am"><img alt="Twitch Status" src="https://img.shields.io/twitch/status/mvt3am?style=social"></a><br>
                                 <a href="https://discord.gg/6CJAUx2"><img alt="Discord" src="https://img.shields.io/discord/249879657187377152.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"></a>
