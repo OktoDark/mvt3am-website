@@ -37,9 +37,9 @@
                                 <p>
                                     What is the Donation Box?!<br>
                                     The Donation Box it is for helping me to keep the stream online for every month.<br>
-                                    I can increase limit of streaming from 2 hours -> see below no3 for more information<br>
                                     This bar will be filled only with &euro; not with percent!<br>
-                                    For every stage completed I open a box or I close it, depend of every month..<br>
+                                    For every stage completed I open a box or I close it, depend of every month.<br>
+                                    <i>Example:</i> I can increase streaming from 2 hours to more hours. (see section stages for more information)
                                     <br>
                                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                         <input type="hidden" name="cmd" value="_s-xclick">
