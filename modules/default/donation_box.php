@@ -113,9 +113,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p>
-                                    Note: Information can be changed without notice!
-                                </p>
+                                <p>Note: Information can be changed without notice!</p>
                             </div>
                         </div>
                     </div>
