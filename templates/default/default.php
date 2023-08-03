@@ -33,7 +33,7 @@
                 <div class="d-flex justify-content-between py-4 my-4">
                     <p><small>&copy; 2016-<?php echo date('Y')?> mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>
                     <ul class="fh5co-social-footer list-unstyled d-flex">
-                        <li><a href="http://www.twitter.com/mvt3am"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="http://www.twitter.com/mvt3am"><i class="fa-brands fa-x-twitter"></i></a></li>
                         <li><a href="https://www.youtube.com/@mvt3amYT"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://discord.gg/x8GRPhq"><i class="fab fa-discord"></i></a></li>
                     </ul>
