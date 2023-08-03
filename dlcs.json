@@ -1,0 +1,73 @@
+{
+  "ats_maps": [
+    {
+      "map" : "ats_map_arizona"
+    }, {
+      "map" : "ats_map_colorado"
+    }, {
+      "map" : "ats_map_idaho"
+    }, {
+      "map" : "ats_map_new_mexico"
+    }, {
+      "map" : "ats_map_oregon"
+    }, {
+      "map" : "ats_map_utah"
+    }, {
+      "map" : "ats_map_washington"
+    }
+  ],
+  "ats_cargo_packs": [
+    {
+      "cp" : "ats_cp_forest_machinery"
+    }, {
+      "cp" : "ats_cp_heavy_cargo_pack"
+    }, {
+      "cp" : "ats_cp_special_transport"
+    }, {
+      "cp" : "ats_cp_volvo_construction_equipment"
+    }
+  ],
+  "ats_tuning_packs" : [
+    {
+      "tp" : "ats_tp_dragon_truck_design_pack"
+    }, {
+      "tp" : "ats_tp_space_paint_jobs"
+    }, {
+      "tp" : "ats_tp_steering_creations_pack"
+    }, {
+      "tp" : "ats_tp_valentines_paint_jobs_pack"
+    }, {
+      "tp" : "ats_tp_wheel_tuning_pack"
+    }
+  ],
+  "ats_paint_themes" : [
+    {
+      "pt" : "ats_pt_christmas_paint_jobs"
+    }, {
+      "pt" : "ats_pt_classic_stripes_paint_jobs"
+    }, {
+      "pt" : "ats_pt_dragon_truck_design_pack"
+    }, {
+      "pt" : "ats_pt_halloween_paint_jobs"
+    }, {
+      "pt" : "ats_pt_space_paint_jobs"
+    }, {
+      "pt" : "ats_pt_valentines_paint_jobs_pack"
+    }
+  ],
+  "ats_free_dlcs" : [
+    {
+      "free_dlcs" : "ats_free_dlcs_arizona"
+    }, {
+      "free_dlcs" : "ats_free_dlcs_cascadia_freightliner"
+    }, {
+      "free_dlcs" : "ats_free_dlcs_international_9900i"
+    }, {
+      "free_dlcs" : "ats_free_dlcs_lt_international"
+    }, {
+      "free_dlcs" : "ats_free_dlcs_mack_anthem"
+    }, {
+      "free_dlcs" : "ats_free_dlcs_western_star_57x"
+    }
+  ]
+}

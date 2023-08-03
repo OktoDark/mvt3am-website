@@ -44,6 +44,16 @@
                                 $file = "calendar.json";
                                 $data = file_get_contents($file);
                                 $obj = json_decode($data);
+
+                                /** DLCS Load File **/
+                                $dlcs_file = "dlcs.json";
+                                $dlcs_data = file_get_contents($dlcs_file);
+                                /** American Truck Simulator **/
+                                $dlcs_map = json_decode($dlcs_data)->ats_maps;
+                                $dlcs_cp = json_decode($dlcs_data)->ats_cargo_packs;
+                                $dlcs_tp = json_decode($dlcs_data)->ats_tuning_packs;
+                                $dlcs_pt = json_decode($dlcs_data)->ats_paint_themes;
+                                $dlcs_free_dlcs = json_decode($dlcs_data)->ats_free_dlcs;
                                 ?>
 
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
@@ -174,7 +184,70 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>American Truck Simulator</td>
+                                            <td>American Truck Simulator<div class="note">I play with almost all DLCs.</div>
+                                                <div class="dlcs">
+                                                    DLCs:
+                                                    <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#atsdlcs" role="button" aria-expanded="false" aria-controls="atsdlcs"></a>
+                                                    <br>
+                                                    <div class="collapse collapse-card-dlcs" id="atsdlcs">
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Maps:</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_map as $ats_map) { ?>
+                                                                    <div class="col"><img src="assets/games/ats/maps/<?php echo $ats_map->map;?>.png" class="dlcs_resize" /></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Cargo Packs:</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_cp as $ats_cargo_packs) { ?>
+                                                                    <div class="col"><img src="assets/games/ats/cp/<?php echo $ats_cargo_packs->cp;?>.png" class="dlcs_resize" /></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Tuning Packs:</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_tp as $ats_tuning_packs) { ?>
+                                                                    <div class="col"><img src="assets/games/ats/tp/<?php echo $ats_tuning_packs->tp;?>.png" class="dlcs_resize" /></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Themes:</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_pt as $ats_paint_themes) { ?>
+                                                                    <div class="col"><img src="assets/games/ats/pt/<?php echo $ats_paint_themes->pt;?>.png" class="dlcs_resize" /></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Free DLCs:</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_free_dlcs as $ats_free_dlcs) { ?>
+                                                                    <div class="col"><img src="assets/games/ats/free_dlcs/<?php echo $ats_free_dlcs->free_dlcs;?>.png" class="dlcs_resize" /></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                             <td><i class="fas fa-check"></i></td>
                                         </tr>
                                         <tr>
