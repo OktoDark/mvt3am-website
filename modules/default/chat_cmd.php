@@ -31,11 +31,11 @@
                         <div class="col-md-12">
                             <div class="row animate-box row-bottom-padded-sm">
                                 <div class="col-md-3">
-                                    <h3 class="fh5co-section-heading" id="games"><span class="fh5co-number">N<sup>o</sup> 1</span> Nightbot</h3>
+                                    <h3 class="fh5co-section-heading" id="Nightbot"><span class="fh5co-number">N<sup>o</sup> 1</span> Nightbot</h3>
                                 </div>
                                 <div class="col-md-9">
                                     <p>Nightbot it is the principal discord & stream bot</p>
-                                    <h5>Use the commands wisely</h5>
+                                    <h5>Use the commands wisely!</h5>
                                     <table class="table table-bordered table-dark fh5co-text-calendar">
                                         <thead>
                                             <tr>
@@ -45,40 +45,36 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>!ats</td>
-                                                <td>You see the numbers of hours in game made by mvt3am</td>
+                                                <td>!website</td>
+                                                <td>Official stream website</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!donate</td>
+                                                <td>Donate page</td>
                                             </tr>
                                             <tr>
                                                 <td>!c</td>
                                                 <td>Show all Nightbot commands</td>
                                             </tr>
                                             <tr>
-                                                <td>!discord</td>
-                                                <td>Show you the our discord server address</td>
+                                                <td>!commands</td>
+                                                <td>Show all Nightbot commands from website</td>
                                             </tr>
                                             <tr>
-                                                <td>!ets2</td>
-                                                <td>You see the numbers of hours in game made by mvt3am</td>
+                                                <td>!rules</td>
+                                                <td>You see the mvt3am rules</td>
                                             </tr>
                                             <tr>
-                                                <td>!forecast</td>
-                                                <td>Show you the forecast of your region. Use !forecast City</td>
-                                            </tr>
-                                            <tr>
-                                                <td>!fs19</td>
-                                                <td>You see the numbers of hours in game made by mvt3am</td>
-                                            </tr>
-                                            <tr>
-                                                <td>!next</td>
-                                                <td>Wen mvt3am will be start the streaming</td>
+                                                <td>!uptime</td>
+                                                <td>Streaming uptime</td>
                                             </tr>
                                             <tr>
                                                 <td>!now</td>
                                                 <td>Info for actual streaming info</td>
                                             </tr>
                                             <tr>
-                                                <td>!rules</td>
-                                                <td>You see the mvt3am rules</td>
+                                                <td>!next</td>
+                                                <td>Wen mvt3am will be start the streaming</td>
                                             </tr>
                                             <tr>
                                                 <td>!stats</td>
@@ -86,27 +82,47 @@
                                             </tr>
                                             <tr>
                                                 <td>!twitch</td>
-                                                <td>mvt3am Twitch address</td>
+                                                <td>mvt3am Twitch</td>
                                             </tr>
                                             <tr>
                                                 <td>!twitter</td>
-                                                <td>mvt3am Twitter address</td>
+                                                <td>mvt3am Twitter</td>
                                             </tr>
                                             <tr>
-                                                <td>!uptime</td>
-                                                <td>Streaming uptime</td>
+                                                <td>!youtube</td>
+                                                <td>mvt3am YouTube Channel</td>
                                             </tr>
                                             <tr>
-                                                <td>!weather</td>
-                                                <td>Show you the weather of your region. Use !weather City</td>
+                                                <td>!discord</td>
+                                                <td>Discord server address of the streaming</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!multi</td>
+                                                <td>About Multiplayer</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!ats</td>
+                                                <td>You see the numbers of hours in game made by mvt3am</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!ets2</td>
+                                                <td>You see the numbers of hours in game made by mvt3am</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!fs19</td>
+                                                <td>You see the numbers of hours in game made by mvt3am</td>
                                             </tr>
                                             <tr>
                                                 <td>!wrsr</td>
                                                 <td>You see the numbers of hours in game made by mvt3am</td>
                                             </tr>
                                             <tr>
-                                                <td>!youtube</td>
-                                                <td>mvt3am Youtube address</td>
+                                                <td>!forecast</td>
+                                                <td>Show you the forecast of your region. Use !forecast City</td>
+                                            </tr>
+                                            <tr>
+                                                <td>!weather</td>
+                                                <td>Show you the weather of your region. Use !weather City</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -114,7 +130,7 @@
                             </div>
                             <div class="row animate-box row-bottom-padded-sm">
                                 <div class="col-md-3">
-                                    <h3 class="fh5co-section-heading" id="games"><span class="fh5co-number">N<sup>o</sup> 1</span> YoshikoBot</h3>
+                                    <h3 class="fh5co-section-heading" id="YoshikoBot"><span class="fh5co-number">N<sup>o</sup> 2</span> YoshikoBot</h3>
                                 </div>
                                 <div class="col-md-9">
                                     <p>YoshikoBot secondary stream bot</p>
@@ -130,18 +146,6 @@
                                             <tr>
                                                 <td>?points</td>
                                                 <td>Information page for points and reward</td>
-                                            </tr>
-                                            <tr>
-                                                <td>!website</td>
-                                                <td>Website page</td>
-                                            </tr>
-                                            <tr>
-                                                <td>!discord</td>
-                                                <td>Show you the our discord server address</td>
-                                            </tr>
-                                            <tr>
-                                                <td>!multi</td>
-                                                <td>About multiplayer</td>
                                             </tr>
                                         </tbody>
                                     </table>
