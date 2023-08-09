@@ -1,5 +1,5 @@
 {
-  "ats_maps": [
+  "ats_maps" : [
     {
       "map" : "ats_map_arizona"
     }, {
@@ -16,7 +16,7 @@
       "map" : "ats_map_washington"
     }
   ],
-  "ats_cargo_packs": [
+  "ats_cargo_packs" : [
     {
       "cp" : "ats_cp_forest_machinery"
     }, {
@@ -68,6 +68,207 @@
       "free_dlcs" : "ats_free_dlcs_mack_anthem"
     }, {
       "free_dlcs" : "ats_free_dlcs_western_star_57x"
+    }
+  ],
+  "ets_maps" : [
+    {
+      "map" : "ets_map_beyond_the_baltic_sea"
+    }, {
+      "map" : "ets_map_going_east!"
+    }, {
+      "map" : "ets_map_iberia"
+    }, {
+      "map" : "ets_map_italia"
+    }, {
+      "map" : "ets_map_road_to_the_black_sea"
+    }, {
+      "map" : "ets_map_scandinavia"
+    }, {
+      "map" : "ets_map_vive_la_france!"
+    }
+  ],
+  "ets_cargo_packs" : [
+    {
+      "cp" : "ets_cp_heavy_cargo_pack"
+    }, {
+      "cp" : "ets_cp_high_power_cargo_pack"
+    }, {
+      "cp" : "ets_cp_special_transport"
+    }, {
+      "cp" : "ets_cp_volvo_construction_equipment"
+    }
+  ],
+  "ets_trailer_packs" : [
+    {
+      "tp" : "ets_tp_heavy_cargo_pack"
+    }, {
+      "tp" : "ets_tp_krone_trailer_pack"
+    }, {
+      "tp" : "ets_tp_schwarzmuller_trailer_pack"
+    }
+  ],
+  "ets_tuning_cabin_accessories" : [
+    {
+      "tca" : "ets_tca_actros_tuning_pack"
+    }, {
+      "tca" : "ets_tca_cabin_accessories"
+    }, {
+      "tca" : "ets_tca_dragon_truck_design_pack"
+    }, {
+      "tca" : "ets_tca_goodyear_tyres_pack"
+    }, {
+      "tca" : "ets_tca_griffin_tuning_pack"
+    }, {
+      "tca" : "ets_tca_halloween_paint_jobs"
+    }, {
+      "tca" : "ets_tca_krone_trailer_pack"
+    }, {
+      "tca" : "ets_tca_michelin_fan_pack"
+    }, {
+      "tca" : "ets_tca_pirate_paint_jobs"
+    }, {
+      "tca" : "ets_tca_raven_design"
+    }, {
+      "tca" : "ets_tca_space_paint_jobs"
+    }, {
+      "tca" : "ets_tca_tuning_pack"
+    }, {
+      "tca" : "ets_tca_velentines_paint_jobs_pack"
+    }, {
+      "tca" : "ets_tca_window_flags"
+    }, {
+      "tca" : "ets_tca_xf_tuning_pack"
+    }
+  ],
+  "ets_paint_themes" : [
+    {
+      "pt" : "ets_pt_actros_tuning_pack"
+    }, {
+      "pt" : "ets_pt_chrismas_paint_jobs"
+    }, {
+      "pt" : "ets_pt_dragon_truck_design_pack"
+    }, {
+      "pt" : "ets_pt_fantasy_paint_jobs"
+    }, {
+      "pt" : "ets_pt_flip_paint_designs"
+    }, {
+      "pt" : "ets_pt_force_of_nature_paint_jobs"
+    }, {
+      "pt" : "ets_pt_goodyear_tyres_pack"
+    }, {
+      "pt" : "ets_pt_halloween_paint_jobs"
+    }, {
+      "pt" : "ets_pt_high_power_cargo_pack"
+    }, {
+      "pt" : "ets_pt_krone_trailer_pack"
+    }, {
+      "pt" : "ets_pt_lunar_new_year_pack"
+    }, {
+      "pt" : "ets_pt_metallic_paint_jobs"
+    }, {
+      "pt" : "ets_pt_michelin_fan_pack"
+    }, {
+      "pt" : "ets_pt_mighty_griffin_tuning_pack"
+    }, {
+      "pt" : "ets_pt_pirate_paint_jobs"
+    }, {
+      "pt" : "ets_pt_prehistoric_paint_jobs"
+    }, {
+      "pt" : "ets_pt_raven_design"
+    }, {
+      "pt" : "ets_pt_space_paint_jobs"
+    }, {
+      "pt" : "ets_pt_valentines_paint_jobs_pack"
+    }, {
+      "pt" : "ets_pt_viking_legends"
+    }
+  ],
+  "ets_paint_jobs_northern_europe" : [
+    {
+      "pjne" : "ets_pjne_danish_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_estonian_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_finnish_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_latvian_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_lithuanian_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_norwegian_paint_jobs"
+    }, {
+      "pjne" : "ets_pjne_swedish_paint_jobs"
+    }
+  ],
+  "ets_paint_jobs_central_europe" : [
+    {
+      "pjce" : "ets_pjce_austrian_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_czech_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_german_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_hungarian_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_polish_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_slovak_paint_jobs"
+    }, {
+      "pjce" : "ets_pjce_swiss_paint_jobs"
+    }
+  ],
+  "ets_paint_jobs_western_europe" : [
+    {
+      "pjwe" : "ets_pjwe_belgian_paint_jobs"
+    }, {
+      "pjwe" : "ets_pjwe_dutch_paint_jobs"
+    }, {
+      "pjwe" : "ets_pjwe_french_paint_jobs"
+    }, {
+      "pjwe" : "ets_pjwe_irish_paint_jobs"
+    }, {
+      "pjwe" : "ets_pjwe_scottish_paint_jobs"
+    }, {
+      "pjwe" : "ets_pjwe_uk_paint_jobs"
+    }
+  ],
+  "ets_paint_jobs_southern_europe" : [
+    {
+      "pjse" : "ets_pjse_italian_paint_jobs"
+    }, {
+      "pjse" : "ets_pjse_portuguese_paint_jobs"
+    }, {
+      "pjse" : "ets_pjse_spanish_paint_jobs"
+    }
+  ],
+  "ets_paint_jobs_eastern_europe" : [
+    {
+      "pjee" : "ets_pjee_bulgarian_paint_jobs"
+    }, {
+      "pjee" : "ets_pjee_romanian_paint_jobs"
+    }, {
+      "pjee" : "ets_pjee_russian_paint_jobs"
+    }, {
+      "pjee" : "ets_pjee_turkish_paint_jobs"
+    }, {
+      "pjee" : "ets_pjee_ukrainian_paint_jobs"
+    }
+  ],
+  "ets_paint_jobs_other_countries" : [
+    {
+      "pjoc" : "ets_pjoc_australian_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_brazilian_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_canadian_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_chinese_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_japanese_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_south_korean_paint_jobs"
+    }, {
+      "pjoc" : "ets_pjoc_usa_paint_jobs"
     }
   ]
 }

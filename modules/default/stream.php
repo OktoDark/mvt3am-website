@@ -45,17 +45,27 @@
                                 $data = file_get_contents($file);
                                 $obj = json_decode($data);
 
-                                /** DLCS Load File **/
-                                $dlcs_file = "dlcs.json";
-                                $dlcs_data = file_get_contents($dlcs_file);
+                                /** DLCs Load File **/
+                                $dlcs_data = file_get_contents("dlcs.json");
                                 /** American Truck Simulator **/
-                                $dlcs_map = json_decode($dlcs_data)->ats_maps;
-                                $dlcs_cp = json_decode($dlcs_data)->ats_cargo_packs;
-                                $dlcs_tp = json_decode($dlcs_data)->ats_tuning_packs;
-                                $dlcs_pt = json_decode($dlcs_data)->ats_paint_themes;
-                                $dlcs_free_dlcs = json_decode($dlcs_data)->ats_free_dlcs;
+                                $dlcs_ats_map = json_decode($dlcs_data)->ats_maps;
+                                $dlcs_ats_cp = json_decode($dlcs_data)->ats_cargo_packs;
+                                $dlcs_ats_tp = json_decode($dlcs_data)->ats_tuning_packs;
+                                $dlcs_ats_pt = json_decode($dlcs_data)->ats_paint_themes;
+                                $dlcs_ats_free_dlcs = json_decode($dlcs_data)->ats_free_dlcs;
+                                /** Euro Truck Simulator **/
+                                $dlcs_ets_map = json_decode($dlcs_data)->ets_maps;
+                                $dlcs_ets_cp = json_decode($dlcs_data)->ets_cargo_packs;
+                                $dlcs_ets_tp = json_decode($dlcs_data)->ets_trailer_packs;
+                                $dlcs_ets_tca = json_decode($dlcs_data)->ets_tuning_cabin_accessories;
+                                $dlcs_ets_pt = json_decode($dlcs_data)->ets_paint_themes;
+                                $dlcs_ets_pjne = json_decode($dlcs_data)->ets_paint_jobs_northern_europe;
+                                $dlcs_ets_pjce = json_decode($dlcs_data)->ets_paint_jobs_central_europe;
+                                $dlcs_ets_pjwe = json_decode($dlcs_data)->ets_paint_jobs_western_europe;
+                                $dlcs_ets_pjse = json_decode($dlcs_data)->ets_paint_jobs_southern_europe;
+                                $dlcs_ets_pjee = json_decode($dlcs_data)->ets_paint_jobs_eastern_europe;
+                                $dlcs_ets_pjoc = json_decode($dlcs_data)->ets_paint_jobs_other_countries;
                                 ?>
-
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
                                         <tr>
@@ -179,69 +189,196 @@
                                     <tbody>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Euro Truck Simulator 2</td>
+                                            <td>Euro Truck Simulator 2
+                                                <div class="note">I play with almost all DLCs.</div>
+                                                <div class="dlcs">
+                                                    DLCs <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#etsdlcs" role="button" aria-expanded="false" aria-controls="etsdlcs"></a><br>
+                                                    <div class="collapse collapse-card-dlcs" id="etsdlcs">
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Maps</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                <?php
+                                                                foreach($dlcs_ets_map as $ets_map) { ?>
+                                                                    <div class="col"><img src="assets/games/ets/maps/<?php echo $ets_map->map;?>.png" class="dlcs_resize" alt="<?php echo $ets_map->map;?>"></div>
+                                                                <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Cargo Packs</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_cp as $ets_cargo_packs) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/cp/<?php echo $ets_cargo_packs->cp;?>.png" class="dlcs_resize" alt="<?php echo $ets_cargo_packs->cp;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Trailer Packs</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_tp as $ets_trailer_packs) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/tp/<?php echo $ets_trailer_packs->tp;?>.png" class="dlcs_resize" alt="<?php echo $ets_trailer_packs->tp;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Tuning & Cabin Accessories</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_tca as $ets_tuning_cabin_accessories) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/tca/<?php echo $ets_tuning_cabin_accessories->tca;?>.png" class="dlcs_resize" alt="<?php echo $ets_tuning_cabin_accessories->tca;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Themes</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pt as $ets_paint_themes) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pt/<?php echo $ets_paint_themes->pt;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_themes->pt;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Northern Europe</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjne as $ets_paint_jobs_northern_europe) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjne/<?php echo $ets_paint_jobs_northern_europe->pjne;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_northern_europe->pjne;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Central Europe</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjce as $ets_paint_jobs_central_europe) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjce/<?php echo $ets_paint_jobs_central_europe->pjce;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_central_europe->pjce;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Western Europe</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjwe as $ets_paint_jobs_western_europe) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjwe/<?php echo $ets_paint_jobs_western_europe->pjwe;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_western_europe->pjwe;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Southern Europe</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjse as $ets_paint_jobs_southern_europe) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjse/<?php echo $ets_paint_jobs_southern_europe->pjse;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_southern_europe->pjse;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Eastern Europe</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjee as $ets_paint_jobs_eastern_europe) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjee/<?php echo $ets_paint_jobs_eastern_europe->pjee;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_eastern_europe->pjee;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-body card-dlcs">
+                                                            <span>Paint Jobs - Other Countries</span>
+                                                            <div class="container text-center">
+                                                                <div class="row row-cols-3">
+                                                                    <?php
+                                                                    foreach($dlcs_ets_pjoc as $ets_paint_jobs_other_countries) { ?>
+                                                                        <div class="col"><img src="assets/games/ets/pjoc/<?php echo $ets_paint_jobs_other_countries->pjoc;?>.png" class="dlcs_resize" alt="<?php echo $ets_paint_jobs_other_countries->pjoc;?>"></div>
+                                                                    <?php } ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                             <td><i class="fas fa-check"></i></td>
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>American Truck Simulator<div class="note">I play with almost all DLCs.</div>
+                                            <td>American Truck Simulator
+                                                <div class="note">I play with almost all DLCs.</div>
                                                 <div class="dlcs">
-                                                    DLCs:
-                                                    <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#atsdlcs" role="button" aria-expanded="false" aria-controls="atsdlcs"></a>
-                                                    <br>
+                                                    DLCs <a class="fa-solid fa-plus-minus" data-bs-toggle="collapse" href="#atsdlcs" role="button" aria-expanded="false" aria-controls="atsdlcs"></a><br>
                                                     <div class="collapse collapse-card-dlcs" id="atsdlcs">
                                                         <div class="card card-body card-dlcs">
-                                                            <span>Maps:</span>
+                                                            <span>Maps</span>
                                                             <div class="container text-center">
                                                                 <div class="row row-cols-3">
-                                                                <?php
-                                                                foreach($dlcs_map as $ats_map) { ?>
-                                                                    <div class="col"><img src="assets/games/ats/maps/<?php echo $ats_map->map;?>.png" class="dlcs_resize" /></div>
-                                                                <?php } ?>
+                                                                    <?php
+                                                                    foreach($dlcs_ats_map as $ats_map) { ?>
+                                                                        <div class="col"><img src="assets/games/ats/maps/<?php echo $ats_map->map;?>.png" class="dlcs_resize" alt="<?php echo $ats_map->map;?>"></div>
+                                                                    <?php } ?>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="card card-body card-dlcs">
-                                                            <span>Cargo Packs:</span>
+                                                            <span>Cargo Packs</span>
                                                             <div class="container text-center">
                                                                 <div class="row row-cols-3">
-                                                                <?php
-                                                                foreach($dlcs_cp as $ats_cargo_packs) { ?>
-                                                                    <div class="col"><img src="assets/games/ats/cp/<?php echo $ats_cargo_packs->cp;?>.png" class="dlcs_resize" /></div>
-                                                                <?php } ?>
+                                                                    <?php
+                                                                    foreach($dlcs_ats_cp as $ats_cargo_packs) { ?>
+                                                                        <div class="col"><img src="assets/games/ats/cp/<?php echo $ats_cargo_packs->cp;?>.png" class="dlcs_resize" alt="<?php echo $ats_cargo_packs->cp;?>"></div>
+                                                                    <?php } ?>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="card card-body card-dlcs">
-                                                            <span>Tuning Packs:</span>
+                                                            <span>Tuning Packs</span>
                                                             <div class="container text-center">
                                                                 <div class="row row-cols-3">
-                                                                <?php
-                                                                foreach($dlcs_tp as $ats_tuning_packs) { ?>
-                                                                    <div class="col"><img src="assets/games/ats/tp/<?php echo $ats_tuning_packs->tp;?>.png" class="dlcs_resize" /></div>
-                                                                <?php } ?>
+                                                                    <?php
+                                                                    foreach($dlcs_ats_tp as $ats_tuning_packs) { ?>
+                                                                        <div class="col"><img src="assets/games/ats/tp/<?php echo $ats_tuning_packs->tp;?>.png" class="dlcs_resize" alt="<?php echo $ats_tuning_packs->tp;?>"></div>
+                                                                    <?php } ?>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="card card-body card-dlcs">
-                                                            <span>Paint Themes:</span>
+                                                            <span>Paint Themes</span>
                                                             <div class="container text-center">
                                                                 <div class="row row-cols-3">
-                                                                <?php
-                                                                foreach($dlcs_pt as $ats_paint_themes) { ?>
-                                                                    <div class="col"><img src="assets/games/ats/pt/<?php echo $ats_paint_themes->pt;?>.png" class="dlcs_resize" /></div>
-                                                                <?php } ?>
+                                                                    <?php
+                                                                    foreach($dlcs_ats_pt as $ats_paint_themes) { ?>
+                                                                        <div class="col"><img src="assets/games/ats/pt/<?php echo $ats_paint_themes->pt;?>.png" class="dlcs_resize" alt="<?php echo $ats_paint_themes->pt;?>"></div>
+                                                                    <?php } ?>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="card card-body card-dlcs">
-                                                            <span>Free DLCs:</span>
+                                                            <span>Free DLCs</span>
                                                             <div class="container text-center">
                                                                 <div class="row row-cols-3">
-                                                                <?php
-                                                                foreach($dlcs_free_dlcs as $ats_free_dlcs) { ?>
-                                                                    <div class="col"><img src="assets/games/ats/free_dlcs/<?php echo $ats_free_dlcs->free_dlcs;?>.png" class="dlcs_resize" /></div>
-                                                                <?php } ?>
+                                                                    <?php
+                                                                    foreach($dlcs_ats_free_dlcs as $ats_free_dlcs) { ?>
+                                                                        <div class="col"><img src="assets/games/ats/free_dlcs/<?php echo $ats_free_dlcs->free_dlcs;?>.png" class="dlcs_resize" alt="<?php echo $ats_free_dlcs->free_dlcs;?>"></div>
+                                                                    <?php } ?>
                                                                 </div>
                                                             </div>
                                                         </div>
