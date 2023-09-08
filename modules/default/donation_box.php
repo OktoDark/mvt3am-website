@@ -1,7 +1,6 @@
         <title>Donation Box | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -34,36 +33,34 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> About</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>
-                                    What is the Donation Box?!<br>
-                                    The Donation Box it is for helping me to keep the stream online for every month.<br>
-                                    This bar will be filled only with &euro; not with percent!<br>
-                                    For every stage completed I open a box or I close it, depend of every month.<br>
-                                    <i>Example:</i> I can increase streaming from 2 hours to more hours. (see section stages for more information)
-                                    <br>
-                                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                        <input type="hidden" name="cmd" value="_s-xclick">
-                                        <input type="hidden" name="hosted_button_id" value="HZ3EC636WYMBN">
-                                        <table>
-                                            <tr>
-                                                <td><input type="hidden" name="on0" value=""></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <select name="os0">
-                                                        <option value="Bronze">Bronze : €2.00 EUR - monthly</option>
-                                                        <option value="Silver">Silver : €4.00 EUR - monthly</option>
-                                                        <option value="Gold">Gold : €6.00 EUR - monthly</option>
-                                                        <option value="Platinum">Platinum : €8.00 EUR - monthly</option>
-                                                    </select>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <input type="hidden" name="currency_code" value="EUR">
-                                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                    </form>
-                                </p>
+                                What is the Donation Box?!<br>
+                                The Donation Box it is for helping me to keep the stream online for every month.<br>
+                                This bar will be filled only with &euro; not with percent!<br>
+                                For every stage completed will I open a box, or I close it, totally depend on every month.<br>
+                                <i>Example:</i> I can increase stream from 2 hours to 3-4 hours every day. (see section stages for more information)
+                                <br>
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="HZ3EC636WYMBN">
+                                    <table>
+                                        <tr>
+                                            <td><input type="hidden" name="on0" value=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select name="os0">
+                                                    <option value="Bronze">Bronze : €2.00 EUR - monthly</option>
+                                                    <option value="Silver">Silver : €4.00 EUR - monthly</option>
+                                                    <option value="Gold">Gold : €6.00 EUR - monthly</option>
+                                                    <option value="Platinum">Platinum : €8.00 EUR - monthly</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <input type="hidden" name="currency_code" value="EUR">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
                             </div>
                         </div>
                         <div class="row animate-box row-bottom-padded-sm">

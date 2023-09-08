@@ -1,7 +1,6 @@
         <title>Contest | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -31,18 +30,19 @@
                     <div class="col-md-12">
                         <div class="row row-bottom-padded-sm animate-box">
                             <div class="col-md-3">
-                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Be Active</h3>
+                                <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Be Active</h3>
                             </div>
                             <div class="col-md-9">
+                                <div class="con_end">Contest is ended</div>
                                 <h3>Description</h3>
                                 It is very simple contest, stay and watch my Twitch <a href="http://twitch.com/mvt3am">mvt3am</a> channel everyday.<br>
                                 More active more chance to win!<br>
-                                Everyday I post on twitter the percent of the win rate +-0/3%* and will be selected the winners in transparent mode.<br>
+                                Everyday I post on Twitter the percent of the win rate +-0/3%* and will be selected the winners in transparent mode.<br>
                                 Enter and see on <a href="https://www.twitter.com/mvt3am">Twitter</a> for percent rate.<br>
-                                <h3 id="rules">Rules</h3>
-                                Enter with !gowin command, type only once to be qualified. (everyday the entry list will be updated with your number of days)<br>
-                                You must to follow me if you do want to join at contest.<br>
-                                You must to be active almost 2 weeks or more before to win.<br>
+                                <h3>Rules</h3>
+                                Enter with !gowin command, type only once to be qualified. (every day the entry list will be updated with your number of days)<br>
+                                You must follow me if you do want to join at contest.<br>
+                                You must be active almost 2 weeks or more before to win.<br>
                                 <h3>Prize</h3>
                                 Chance to win one from 5 ViPs* available<br>
                                 <h3>Note</h3>
@@ -69,11 +69,11 @@
                                 <div class="con_end">Contest is ended</div>
                                 <h3>Description</h3>
                                 It is very simple contest, stay and watch on me <a href="http://twitch.com/mvt3am">mvt3am</a> channel, wait and see the bot word and write the word on chat.<br>
-                                Who collect the most of word can win. see <a href="#rules">rules</a>.<br>
-                                You must to collect all the words from 1.10.2016 to 9.10.2016.
-                                <h3 id="rules">Rules</h3>
-                                You must to follow me if you do want to join.<br>
-                                You have 20 minutes before the word expired, so you must to be fast and not fast. Only be attention.<br>
+                                Who collect the most words can win. see <a href="#rules">rules</a>.<br>
+                                You must collect all the words from 1.10.2016 to 9.10.2016.
+                                <h3>Rules</h3>
+                                You must follow me if you do want to join.<br>
+                                You have 20 minutes before the word expired, so you must be fast and not fast. Only be attention.<br>
                                 You can't see the word in video replay, don't try to cheat it.
                                 If are 2-4 followers all 9 words, all goes to spin round.
                                 <h3>Buy</h3>

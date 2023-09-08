@@ -1,7 +1,6 @@
         <title>FS19 Mods | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">

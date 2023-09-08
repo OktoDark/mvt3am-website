@@ -1,10 +1,9 @@
         <title>Home | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
-        <nav id="fh5co-nav" role="navigation">
+        <nav id="fh5co-nav" class="fixed-top" role="navigation">
             <ul>
                 <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
                 <li class="animate-box"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>

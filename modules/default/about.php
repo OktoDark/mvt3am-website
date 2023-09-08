@@ -1,7 +1,6 @@
         <title>About | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -47,12 +46,8 @@
                             </div>
                             <div class="col-md-9">
                                 <p>
-                                    What I like and dislike<br>
-                                    I like Games<br>
-                                    I like Anime<br>
-                                    I like Music (Rock, Trance, Chill, Old Music)<br>
-                                    I like Journeys<br>
-                                    I hate jerks<br>
+                                    I like Games, Anime, Music (Rock, Trance, Chill, Old Music), Journeys<br>
+                                    I hate jerks
                                 </p>
                             </div>
                         </div>
@@ -62,15 +57,10 @@
                             </div>
                             <div class="col-md-9">
                                 <p>
-                                    Yes, I know to work in lots of programs, and I know codes:<br>
-                                    PHP<br>
-                                    mySQL<br>
-                                    HTML<br>
-                                    CSS<br>
-                                    c++<br>
-                                    javascript<br>
-                                    3d moddeling<br>
-                                    Music producer (since 2004)<br>
+                                    Web design and coding: PHP, HTML5, Framework, CSS, JavaScript<br>
+                                    Programming: c++<br>
+                                    Modeling: 3ds Max, Blender<br>
+                                    Music producer (since 2004)
                                 </p>
                             </div>
                         </div>
@@ -79,7 +69,7 @@
                                 <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 4</span> Contact</h3>
                             </div>
                             <div class="col-md-9">
-                                <a href="https://www.twitter.com/mvt3am"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mvt3am?style=social"></a><br>
+                                <a href="https://www.x.com/mvt3am"><img alt="X Follow" src="https://img.shields.io/twitter/follow/mvt3am?style=social"></a><br>
                                 <a href="https://www.youtube.com/@mvt3amYT"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCzPfw3b7L4oVr9C4BykM-8w?style=social"></a> (Twitch streaming backup sometimes Live streaming)<br>
                                 <a href="https://www.youtube.com/@mvt3am"><img alt="Youtube Personal Page" src="https://img.shields.io/youtube/channel/subscribers/UCMyPPE3dg4pd4HrQLbuOphA?style=social"></a> (Youtube Personal)<br>
                                 <a href="https://www.github.com/Viruzzz"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Viruzzz?style=social"></a><br>

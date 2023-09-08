@@ -92,6 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1em 0 0 0 !important;
 }
 
+.image-nav {
+  width: 30px;
+  height: 30px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -262,6 +269,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   border-block: azure;
   border-style: solid;
+  border-inline-width: unset;
 }
 
 .dlcs {
@@ -694,10 +702,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-footer {
-  padding: 7em 0em !important;
+  padding: 7em 0em 0em 0em!important;
   color: rgba(255, 255, 255, 0.2);
   position: relative;
 }
+
 #fh5co-footer:before {
   content: "";
   position: absolute;
@@ -1094,7 +1103,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #222222;
+  font-family: "Font Awesome 6 Free", serif;
+  font-weight: 900;
+  content: "\f254";
+}
+
+.paypal-custom {
+  min-width: 300px !important;
+  max-width: 500px !important;
 }
 
 .js .animate-box {

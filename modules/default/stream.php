@@ -1,7 +1,6 @@
         <title>Stream | <?php echo $siteName;?></title>
     </head>
     <body>
-    <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div id="fh5co-page">
         <nav id="fh5co-nav" role="navigation">
@@ -23,7 +22,7 @@
                 </div>
             </div>
             <div class="btn-next animate-box fh5co-learn-more">
-                <a href="#" class="scroll-btn"><span>See the detail</span><i class="icon-chevron-down"></i></a>
+                <a href="#" class="scroll-btn"><span>See the detail</span><i class="fa-solid fa-chevron-down"></i></a>
             </div>
         </header>
         <div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
@@ -36,13 +35,13 @@
                             </div>
                             <div class="col-md-9">
                                 <p>
-                                    I do streaming only 6 days per week from Tuesday - Sunday, Monday I have day off.<br>
-                                    <i class="fas fa-exclamation-triangle"></i> I not streaming when it is launched a rocket on the same day and hour as me. (not count launches from China and Russia)<br>
-                                    <i class="fas fa-exclamation-triangle"></i> The music from all games are been turned off due to licence copyrights.
+                                    I do stream only 6 days per week from Tuesday - Sunday, Monday I have day off.<br>
+                                    <i class="fas fa-exclamation-triangle"></i> I not stream when it is launched a rocket on the same day and hour as me. (not count launches from China, India and Russia or from Companies of Rocket Lab, Virgin Galactic)<br>
+                                    <i class="fas fa-exclamation-triangle"></i> The music from all games are been turned <b>off</b> due to licence copyrights.<br>
+                                    <i class="fas fa-exclamation-triangle"></i> <i class="fa-sharp fa-solid fa-square" style="color: #ff0000;"></i> at top 4 Hours Marathon stream.
                                 </p>
                                 <?php
-                                $file = "calendar.json";
-                                $data = file_get_contents($file);
+                                $data = file_get_contents("calendar.json");
                                 $obj = json_decode($data);
 
                                 /** DLCs Load File **/
@@ -94,31 +93,31 @@
                                             <td class="calendar-c">Game</td>
                                             <td>
                                                 <?php echo $obj[1]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[1]->icon; ?>.png" alt="<?php echo $obj[1]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[2]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[2]->icon; ?>.png" alt="<?php echo $obj[2]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[3]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[3]->icon; ?>.png" alt="<?php echo $obj[3]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[4]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[4]->icon; ?>.png" alt="<?php echo $obj[4]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[5]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[5]->icon; ?>.png" alt="<?php echo $obj[5]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[6]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[6]->icon; ?>.png" alt="<?php echo $obj[6]->name; ?>">
                                             </td>
                                             <td>
                                                 <?php echo $obj[7]->warning; ?>
-                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>"/>
+                                                <img src="<?php echo BASE_HREF;?>assets/games_covers/<?php echo $obj[7]->icon; ?>.png" alt="<?php echo $obj[7]->name; ?>">
                                             </td>
                                         </tr>
                                         <tr>
@@ -165,8 +164,8 @@
                                 </table>
                                 <p>
                                     Legend:<br>
-                                    <i class="fas fa-times fa-fw"></i> - is mean the streaming has been canceled for today<br>
-                                    <i class="fas fa-asterisk fa-fw"></i> - is mean can be streaming, without mention of start hour<br>
+                                    <i class="fas fa-times fa-fw"></i> - is mean the stream has been canceled for today<br>
+                                    <i class="fas fa-asterisk fa-fw"></i> - is mean can stream without mention of start hour<br>
                                     <i class="fas fa-random fa-fw"></i> - is mean can be random game without announcement
                                 </p>
                             </div>
@@ -176,14 +175,20 @@
                                 <h3 class="fh5co-section-heading" id="games"><span class="fh5co-number">N<sup>o</sup> 2</span> Games</h3>
                             </div>
                             <div class="col-md-9">
-                                <p>My Steam wishlist <a href="https://store.steampowered.com/wishlist/id/mvt3am"><img src="<?php echo BASE_HREF;?>assets/misc/steam_transparent.png" width="160px" height="35px" alt="Steam"/></a> , some of those games I have it already but I want to have on my steam account! If you have steam key send me PM on my discord server! Thank you.</p>
+                                <p>
+                                    My <a href="https://store.steampowered.com/wishlist/id/mvt3am"><i class="fa-brands fa-steam"></i> wishlist</a>. If you want to donate steam keys send me DM on my discord server to complete my game list! Thank you.<br>
+                                    <br><b>Multiplayer</b><br>
+                                    Some games can be played in multiplayer or not (see <i>My Games</i> list) for that please join to our Discord server for more details about How to connect in multiplayer, because some games "room" require password to enter or mods must have it to can play.
+                                    <br>
+                                    If the stream title has <b>!multi</b> and <b><i class="fas fa-check"></i></b> in the game list that mean we can play in multiplayer mode.
+                                </p>
                                 <h3>My Games</h3>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
                                         <tr>
-                                            <th>Store</th>
+                                            <th><i class="fa-solid fa-store"></i></th>
                                             <th>Game</th>
-                                            <th>Multiplayer</th>
+                                            <th><i class="fa-solid fa-users-rectangle"></i></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -397,7 +402,10 @@
                                                     <br>
                                                     <div class="collapse collapse-video-series" id="wrsr">
                                                         <div class="card card-body card-video-series">
-                                                            <a href="https://www.youtube.com/playlist?list=PLHJrf1Xjvhg8Kw5s3NvsHUedxnhYvyUVI">The New Country</a>
+                                                            <a href="https://www.youtube.com/playlist?list=PLHJrf1Xjvhg8Kw5s3NvsHUedxnhYvyUVI">The New Country (185 Parts Ending)</a>
+                                                        </div>
+                                                        <div class="card card-body card-video-series">
+                                                            <a href="https://www.youtube.com/playlist?list=PLHJrf1Xjvhg_ka2RnV7DRzUPQmVxefZWU">Eprea Country (Streaming right now)</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -461,7 +469,10 @@
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
-                                            <td><span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span></td>
+                                            <td>
+                                                <i class="fab fa-steam"></i><br><br>
+                                                <span class="iconify" data-icon="cib:epic-games" data-width="25" data-height="25"></span><br><br>
+                                                <span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span></td>
                                             <td>
                                                 The Sims 4<br>
                                                 <div class="video-series">
@@ -478,7 +489,10 @@
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                         <tr>
-                                            <td><span class="iconify" data-icon="mdi:gog" style="color: #fff;" data-width="25" data-height="25"></span></td>
+                                            <td>
+                                                <span class="iconify" data-icon="mdi:gog" style="color: #fff;" data-width="25" data-height="25"></span><br>
+                                                <span class="iconify" data-icon="cib:epic-games" data-width="25" data-height="25"></span>
+                                            </td>
                                             <td>Kerbal Space Program (<a href="mods/ksp">mods</a>)</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>

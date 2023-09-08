@@ -11,7 +11,6 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo BASE_HREF;?>templates/<?php echo $theme;?>/css/animate.css">
     <link rel="stylesheet" href="<?php echo BASE_HREF;?>templates/<?php echo $theme;?>/css/flexslider.css">
-    <link rel="stylesheet" href="<?php echo BASE_HREF;?>templates/<?php echo $theme;?>/css/icomoon.css">
     <link rel="stylesheet" id="theme-switch" href="<?php echo BASE_HREF;?>templates/<?php echo $theme;?>/css/style.css">
         <?php
         if (isset($_GET['od'])) {{
@@ -33,9 +32,10 @@
                 <div class="d-flex justify-content-between py-4 my-4">
                     <p><small>&copy; 2016-<?php echo date('Y')?> mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>
                     <ul class="fh5co-social-footer list-unstyled d-flex">
-                        <li><a href="http://www.twitter.com/mvt3am"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="http://www.x.com/mvt3am"><i class="fa-brands fa-x-twitter"></i></a></li>
                         <li><a href="https://www.youtube.com/@mvt3amYT"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://discord.gg/x8GRPhq"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://www.github.com/OktoDark/mvt3am-website"><i class="fab fa-github"></i></a></li>
                     </ul>
                 </div>
             </footer>
