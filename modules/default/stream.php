@@ -439,11 +439,12 @@
                                             <td><i class="fab fa-steam"></i></td>
                                             <td>Farming Simulator
                                                 <ul style="text-align: left;">
-                                                    <li>Farming Simulator 2011</li>
-                                                    <li>Farming Simulator 2013</li>
-                                                    <li>Farming Simulator 2015</li>
-                                                    <li>Farming Simulator 2017</li>
+                                                    <li>Farming Simulator 2011 (soon)</li>
+                                                    <li>Farming Simulator 2013 (soon)</li>
+                                                    <li>Farming Simulator 2015 (soon)</li>
+                                                    <li>Farming Simulator 2017 (soon)</li>
                                                     <li>Farming Simulator 2019 (<a href="mods/fs19">mods</a>)</li>
+                                                    <li>Farming Simulator 2022 (<a href="#">mods soon</a>)</li>
                                                 </ul>
                                             </td>
                                             <td><i class="fas fa-check"></i></td>
