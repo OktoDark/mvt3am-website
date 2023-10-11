@@ -37,8 +37,8 @@
                                 <h3>Description</h3>
                                 It is very simple contest, stay and watch my Twitch <a href="http://twitch.com/mvt3am">mvt3am</a> channel everyday.<br>
                                 More active more chance to win!<br>
-                                Everyday I post on Twitter the percent of the win rate +-0/3%* and will be selected the winners in transparent mode.<br>
-                                Enter and see on <a href="https://www.twitter.com/mvt3am">Twitter</a> for percent rate.<br>
+                                Everyday I post on X the win rate +-0/3%* and will be selected the winners in transparent mode.<br>
+                                Enter and see on <a href="https://www.x.com/mvt3am"><i class="fa-brands fa-x-twitter"></i></a> for percent rate.<br>
                                 <h3>Rules</h3>
                                 Enter with !gowin command, type only once to be qualified. (every day the entry list will be updated with your number of days)<br>
                                 You must follow me if you do want to join at contest.<br>
