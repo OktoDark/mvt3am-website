@@ -7,9 +7,8 @@
         <ul>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
-            <li class="animate-box"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
             <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>creation_zone" class="transition">Creation Zone</a></li>
-            <li class="animate-box"><a href="<?php echo BASE_HREF;?>donation_box" class="transition">Donation Box</a></li>
+            <li class="animate-box"><a href="<?php echo BASE_HREF;?>support" class="transition"><i class="fa-regular fa-heart"></i> Support</a></li>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
         </ul>
     </nav>
@@ -34,32 +33,15 @@
                             <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> About</h3>
                         </div>
                         <div class="col-md-9">
-                            What is the Creation Zone?!<br>
-                            The Creation Zone it is for helping me to upgrade my software for 3D modeling and other costs as software licencing etc.<br>
-                            <i>Reward:</i> For every &euro; spend you earn some reward on our discord server and more.
-                            <br>
-
+                            There you can find all my creation for some games mods.
                         </div>
                     </div>
-                    <div class="row animate-box row-bottom-padded-sm">
+                    <div class="row row-bottom-padded-sm animate-box">
                         <div class="col-md-3">
-                            <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> <i class="fa-solid fa-euro-sign"></i></h3>
+                            <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> List</h3>
                         </div>
                         <div class="col-md-9">
-                            <p>
-                                You can donate directly to my PayPal address: <a href="https://www.paypal.com/donate/?hosted_button_id=AGPSVXNLNTTB4"><i class="fa-brands fa-paypal fa-beat" style="color: #74C0FC;"></i></a>
-                                <br>
-                                Or scan the QR code <i class="fa-solid fa-hand-point-down" style="color: #800000;"></i><br>
-                                <img src="<?php echo BASE_HREF;?>assets/misc/QR_Code_mv_cz.png"/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row animate-box row-bottom-padded-sm">
-                        <div class="col-md-3">
-                            <h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> <i class="fa-solid fa-list"></i></h3>
-                        </div>
-                        <div class="col-md-9">
-                            <p>Members who has donated (Is an optional choice, published only with your wish).</p>
+                            If I finish a Mod you find it here!
                         </div>
                     </div>
                 </div>

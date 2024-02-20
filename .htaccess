@@ -11,7 +11,7 @@ RewriteRule ^stream?$ index.php?od=stream
 RewriteRule ^contest?$ index.php?od=contest
 RewriteRule ^chat_commands?$ index.php?od=chat_cmd
 RewriteRule ^creation_zone?$ index.php?od=creation_zone
-RewriteRule ^donation_box?$ index.php?od=donation_box
+RewriteRule ^support?$ index.php?od=support
 RewriteRule ^points_n_rewards?$ index.php?od=points_n_rewards
 # Mods
 RewriteRule ^mods/fs19?$ index.php?od=fs19_mods
