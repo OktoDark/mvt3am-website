@@ -7,7 +7,6 @@
         <ul>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>home" class="transition">Home</a></li>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>stream" class="transition">Stream</a></li>
-            <li class="animate-box"><a href="<?php echo BASE_HREF;?>creation_zone" class="transition">Creation Zone</a></li>
             <li class="animate-box fh5co-active"><a href="<?php echo BASE_HREF;?>support" class="transition"><i class="fa-regular fa-heart fa-beat" style="color: #ff0000;"></i> Support</a></li>
             <li class="animate-box"><a href="<?php echo BASE_HREF;?>about" class="transition">About</a></li>
         </ul>
