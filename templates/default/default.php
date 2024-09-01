@@ -23,12 +23,6 @@
         ?>
         <div class="container">
             <footer id="fh5co-footer" class="js-fh5co-waypoint py-3 my-4">
-                <ul class="nav justify-content-center pb-3 mb-3">
-                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="<?php echo BASE_HREF;?>chat_commands" class="transition">Chat Commands</a></li>
-                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="<?php echo BASE_HREF;?>points_n_rewards" class="transition">Points and Rewards</a></li>
-                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a></li>
-                    <li class="animate-box" style="padding: 0 0 0 10px;"><a href="" class="transition">Giveaways</a></li>
-                </ul>
                 <div class="fh5co-footer-top-bar"></div>
                 <div class="d-flex justify-content-between py-4 my-4">
                     <p><small>&copy; 2016-<?php echo date('Y')?> mvt3am. All Rights Reserved.<br>With help from <a href="https://www.oktodark.com">OktoDark</a> Studios</small></p>

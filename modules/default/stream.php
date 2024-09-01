@@ -500,6 +500,19 @@
                                 </table>
                             </div>
                         </div>
+                        <div class="row animate-box row-bottom-padded-sm">
+                            <div class="col-md-3">
+                                <h3 class="fh5co-section-heading" id="games"><span class="fh5co-number">N<sup>o</sup> 3</span> Channel</h3>
+                            </div>
+                            <div class="col-md-9">
+                                <p>
+                                    If you do want to know some bots commands please visit this <a href="<?php echo BASE_HREF;?>chat_commands">page</a><br>
+                                    For fun earn some points, more details here: <a href="<?php echo BASE_HREF;?>points_n_rewards" class="transition">Points and Rewards</a><br>
+                                    We have some contest on our stream please check: <a href="<?php echo BASE_HREF;?>contest" class="transition">Contest</a><br>
+                                    You do want some gifts enter here: <a href="" class="transition">Giveaways</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
