@@ -444,6 +444,7 @@
                                                     <li>Farming Simulator 2017 (soon)</li>
                                                     <li>Farming Simulator 2019 (<a href="mods/fs19">mods</a>)</li>
                                                     <li>Farming Simulator 2022 (<a href="#">mods soon</a>)</li>
+                                                    <li>Farming Simulator 2019 (<a href="game/fs19"><i class="fa-solid fa-circle-info"></i></a>)</li>
                                                     <li>Farming Simulator 2022 (<a href="game/fs22"><i class="fa-solid fa-circle-info"></i></a>)</li>
                                                 </ul>
                                             </td>
@@ -494,7 +495,7 @@
                                                 <span class="iconify" data-icon="mdi:gog" style="color: #fff;" data-width="25" data-height="25"></span><br>
                                                 <span class="iconify" data-icon="cib:epic-games" data-width="25" data-height="25"></span>
                                             </td>
-                                            <td>Kerbal Space Program (<a href="mods/ksp">mods</a>)</td>
+                                            <td>Kerbal Space Program (<a href="game/ksp"><i class="fa-solid fa-circle-info"></i></a>)</td>
                                             <td><i class="fas fa-times"></i></td>
                                         </tr>
                                     </tbody>

@@ -1,4 +1,4 @@
-        <title>KSP Mods | <?php echo $siteName;?></title>
+        <title>Kerbal Space Program | <?php echo $siteName;?></title>
     </head>
     <body>
     <div class="fh5co-loader"></div>
@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="fh5co-text-wrap animate-box">
                     <div class="fh5co-intro-text">
-                        <h1>Kerbal Space Program <br><span>mods</span></h1>
+                        <h1>Kerbal Space Program</h1>
                     </div>
                 </div>
             </div>

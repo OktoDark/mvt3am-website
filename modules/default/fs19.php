@@ -1,4 +1,4 @@
-        <title>FS19 Mods | <?php echo $siteName;?></title>
+        <title>Farming Simulator 19 | <?php echo $siteName;?></title>
     </head>
     <body>
     <div class="fh5co-loader"></div>
@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="fh5co-text-wrap animate-box">
                     <div class="fh5co-intro-text">
-                        <h1>Farming Simulator 19 <br><span>mods</span></h1>
+                        <h1>Farming Simulator 19</h1>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                                     Farming Simulator 19 <sub>v</sub>1.7.1.0<br><br>
                                     <i class="fas fa-exclamation-triangle"></i> All the mods are been downloaded directly from <a href="https://www.farming-simulator.com/mods.php?lang=en&country=ca&title=fs2019&page=0"><i class="fas fa-tractor"></i></a> website, modhub from ingame or any other mods website.<br>
                                     This list has been tested for multiplayer map with/without Seasons* mod.<br>
-                                    I play with more that 5000+ mods.<br><br>
+                                    I play with more than >5000 mods.<br><br>
                                     Time Loading for first time of the game: 13+ minutes.<br>
                                     Second time loading time of the game <1 minute.<br>
                                     Entering on map <2 minutes.<br>
@@ -189,6 +189,12 @@
                                         <td>28</td>
                                     </tr>
                                     <tr>
+                                        <td>La Coronella 2.0</td>
+                                        <th><i class="fas fa-check"></i></th>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
                                         <td>New Woodshire</td>
                                         <td><i class="fas fa-check"></i></td>
                                         <td><i class="fas fa-times"></i></td>
@@ -201,6 +207,12 @@
                                         <td>25</td>
                                     <tr>
                                         <td>Bredow Pro Version</td>
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td><i class="fas fa-times"></i></td>
+                                        <td>24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>No man's land</td>
                                         <td><i class="fas fa-check"></i></td>
                                         <td><i class="fas fa-times"></i></td>
                                         <td>24</td>

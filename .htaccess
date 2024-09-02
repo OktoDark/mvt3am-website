@@ -12,6 +12,7 @@ RewriteRule ^contest?$ index.php?od=contest
 RewriteRule ^chat_commands?$ index.php?od=chat_cmd
 RewriteRule ^support?$ index.php?od=support
 RewriteRule ^points_n_rewards?$ index.php?od=points_n_rewards
-# Mods
-RewriteRule ^mods/fs19?$ index.php?od=fs19_mods
-RewriteRule ^mods/ksp?$ index.php?od=ksp_mods
+# Game Pages
+RewriteRule ^game/fs19?$ index.php?od=fs19
+RewriteRule ^game/fs22?$ index.php?od=fs22
+RewriteRule ^game/ksp?$ index.php?od=ksp
