@@ -444,6 +444,7 @@
                                                     <li>Farming Simulator 2017 (soon)</li>
                                                     <li>Farming Simulator 2019 (<a href="mods/fs19">mods</a>)</li>
                                                     <li>Farming Simulator 2022 (<a href="#">mods soon</a>)</li>
+                                                    <li>Farming Simulator 2022 (<a href="game/fs22"><i class="fa-solid fa-circle-info"></i></a>)</li>
                                                 </ul>
                                             </td>
                                             <td><i class="fas fa-check"></i></td>
