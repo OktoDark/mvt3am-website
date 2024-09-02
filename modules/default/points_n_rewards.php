@@ -112,7 +112,7 @@
                                     <h5>Legend</h5>
                                     <p>
                                         <i>Title ranks can be changed in anytime but not the Points yet.</i><br>
-                                        * You can win a reward if you have Points see the Twitter if in a month, week you can earn Rewards.
+                                        * You can win a reward if you have enough Points every month, check on <i class="fa-brands fa-x-twitter"></i> if you are a winner.
                                     </p>
                                 </div>
                             </div>
@@ -123,16 +123,22 @@
                                 <div class="col-md-9">
                                     <p>
                                         What you must to know<br><br>
+
                                         <b>Why I not earn points?</b><br>
-                                        You not earn points if you not Follow me.<br>
+                                        You not earn points if you not use <span class="badge text-bg-primary twitch-follow"><i class="fa-regular fa-heart"></i> Follow</span> button from <a href="https://www.twitch.com/mvt3am"><i class="fa-brands fa-twitch" style="color: #9147ff;"></i></a><br>
+
                                         <b>If donated I can receive points?</b><br>
-                                        Yes you receive points, ex 1&euro; = 50 Points same as for $. (can be more points with every donation)<br>
+                                        Yes, you receive points, example for every 1&euro;/$ you earn 50 Points and so on.<br>
+
                                         <b>I donated but I not receive the points</b><br>
-                                        Send me a message private and in short time you have it all.<br>
-                                        <b>If I donated 100&euro; / $ how many points I win?</b><br>
-                                        You not win, you earn 10.000 points and you will have a special rank only for you. The title you choice it only for you.<br>
+                                        Send me a private message and in short time you have it all.<br>
+
+                                        <b>If I donated 100&euro;/$ how many points I win?</b><br>
+                                        You not win, you earn 10.000 points, and you will have a special rank only for you. The title depend on you, because is your choice.<br>
+
                                         <b>I can buy something else with Points?</b><br>
                                         Yes, as soon our shop is complete.<br>
+
                                         <b>I donated / I watching you everytime what I earn?</b><br>
                                         You earn Points and my respect.
                                     </p>

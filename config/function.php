@@ -12,7 +12,7 @@
  * Website Settings
  */
 function getSettings() {
-    global $db_website, $contact_email, $ntfm, $siteName, $keywords, $description, $copyright, $facebook, $discord, $url, $theme;
+    global $db_website, $contact_email, $ntfm, $siteName, $keywords, $description, $copyright, $discord, $url, $theme;
     $result = mysqli_query($db_website, "SELECT * FROM web_settings");
 
     while($row = mysqli_fetch_assoc($result)) {
@@ -22,7 +22,6 @@ function getSettings() {
         $keywords = $row["keywords"];
         $description = $row["description"];
         $copyright = $row["copyright"];
-        $facebook = $row["facebook"];
         $discord = $row["discord"];
         $url = $row["url"];
         $theme = $row["theme"];

@@ -165,7 +165,7 @@
                                     Legend:<br>
                                     <i class="fas fa-times fa-fw"></i> - is mean the stream has been canceled for today<br>
                                     <i class="fas fa-asterisk fa-fw"></i> - is mean can stream without mention of start hour<br>
-                                    <i class="fas fa-random fa-fw"></i> - is mean can be random game without announcement
+                                    <i class="fas fa-random fa-fw"></i> - is mean can be random game without announcement, but check on <i class="fa-brands fa-x-twitter"></i> in case.
                                 </p>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                                     <br>
                                     If the stream title has <b>!multi</b> and <b><i class="fas fa-check"></i></b> in the game list that mean we can play in multiplayer mode.
                                 </p>
-                                <h3>My Games</h3>
+                                <h3>My Games <span class="small_typo">(only what I play and post on YouTube)</span></h3>
                                 <table class="table table-bordered table-dark fh5co-text-calendar">
                                     <thead>
                                         <tr>
@@ -413,37 +413,8 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Tomb Raider
-                                                <ul style="text-align: left;">
-                                                    <li>Tomb Raider I (1996)</li>
-                                                    <li>Tomb Raider II (1997)</li>
-                                                    <li>Tomb Raider III - Adventures of Lara Croft (1998)</li>
-                                                    <li>Tomb Raider: The Last Revelation (1999)</li>
-                                                    <li>Tomb Raider (2000)</li>
-                                                    <li>Tomb Raider: Chronicles (2000)</li>
-                                                    <li>Tomb Raider VI: The Angel of Darkness (2003)</li>
-                                                    <li>Tomb Raider: Legend (2006)</li>
-                                                    <li>Tomb Raider: Anniversary (2007)</li>
-                                                    <li>Tomb Raider: Underworld (2008)</li>
-                                                    <li>Lara Croft and the Guardian of Light (2010)</li>
-                                                    <li>Lara Croft and the Temple of Osiris (2014)</li>
-                                                    <li>Lara Croft GO (2015)</li>
-                                                    <li>Rise of Tomb Raider (2015)</li>
-                                                    <li>Shadow of the Tomb Raider: Definitive Edition (2018)</li>
-                                                </ul>
-                                            </td>
-                                            <td><i class="fas fa-times"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td><i class="fab fa-steam"></i></td>
                                             <td>Farming Simulator
                                                 <ul style="text-align: left;">
-                                                    <li>Farming Simulator 2011 (soon)</li>
-                                                    <li>Farming Simulator 2013 (soon)</li>
-                                                    <li>Farming Simulator 2015 (soon)</li>
-                                                    <li>Farming Simulator 2017 (soon)</li>
-                                                    <li>Farming Simulator 2019 (<a href="mods/fs19">mods</a>)</li>
-                                                    <li>Farming Simulator 2022 (<a href="#">mods soon</a>)</li>
                                                     <li>Farming Simulator 2019 (<a href="game/fs19"><i class="fa-solid fa-circle-info"></i></a>)</li>
                                                     <li>Farming Simulator 2022 (<a href="game/fs22"><i class="fa-solid fa-circle-info"></i></a>)</li>
                                                 </ul>
@@ -457,12 +428,7 @@
                                         </tr>
                                         <tr>
                                             <td><i class="fab fa-steam"></i></td>
-                                            <td>Counter-Strike</td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td><i class="fab fa-steam"></i></td>
-                                            <td>Counter-Strike: Source</td>
+                                            <td>Construction Simulator</td>
                                             <td><i class="fas fa-check"></i></td>
                                         </tr>
                                         <tr>
@@ -472,9 +438,10 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <i class="fab fa-steam"></i><br><br>
-                                                <span class="iconify" data-icon="cib:epic-games" data-width="25" data-height="25"></span><br><br>
-                                                <span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span></td>
+                                                <i class="fab fa-steam"></i><br>
+                                                <span class="iconify" data-icon="cib:epic-games" data-width="25" data-height="25"></span><br>
+                                                <span class="iconify-inline" data-icon="mdi:origin" style="color: #f56c2d;" data-width="25" data-height="25"></span>
+                                            </td>
                                             <td>
                                                 The Sims 4<br>
                                                 <div class="video-series">

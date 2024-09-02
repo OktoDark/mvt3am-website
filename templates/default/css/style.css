@@ -103,6 +103,14 @@ h1, h2, h3, h4, h5, h6 {
   filter: grayscale(100%);
 }
 
+.twitch-follow {
+  background-color: blueviolet;
+}
+
+.progress-style {
+  max-width: 580px;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
