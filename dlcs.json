@@ -14,6 +14,12 @@
       "map" : "ats_map_utah"
     }, {
       "map" : "ats_map_washington"
+    }, {
+      "map" : "ats_map_montana"
+    }, {
+      "map" : "ats_map_texas"
+    }, {
+      "map" : "ats_map_wyoming"
     }
   ],
   "ats_cargo_packs" : [
@@ -25,6 +31,8 @@
       "cp" : "ats_cp_special_transport"
     }, {
       "cp" : "ats_cp_volvo_construction_equipment"
+    }, {
+      "cp" : "ats_cp_jcb_equipment_pack"
     }
   ],
   "ats_tuning_packs" : [
@@ -53,6 +61,8 @@
       "pt" : "ats_pt_space_paint_jobs"
     }, {
       "pt" : "ats_pt_valentines_paint_jobs_pack"
+    }, {
+      "pt" : "ats_wild_west_paint_jobs_pack"
     }
   ],
   "ats_free_dlcs" : [
@@ -96,6 +106,8 @@
       "cp" : "ets_cp_special_transport"
     }, {
       "cp" : "ets_cp_volvo_construction_equipment"
+    }, {
+      "cp" : "ets_cp_jcb_equipment_pack"
     }
   ],
   "ets_trailer_packs" : [
